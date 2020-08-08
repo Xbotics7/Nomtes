@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+header {
+    background: black;
+    color: blanchedalmond;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul li {
+    background: brown;
+    color: chartreuse;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
