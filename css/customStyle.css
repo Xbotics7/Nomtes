@@ -1,0 +1,15 @@
+.nomtes_icon{
+    height: 200px;
+    width: 200px;
+}
+
+.ss_left::before{
+    background-image: url("../img/ss/s1_dark.png");
+    background-size: cover;
+}
+
+.ss_right::before{
+    opacity: 0.5;
+    background-image: url("../img/ss/s1_light.png");
+    background-size: cover;
+}
