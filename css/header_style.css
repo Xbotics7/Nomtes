@@ -603,7 +603,7 @@ h6 {
   border: 3px solid #bc3653;
 }
 #features {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 
 #features h4 {
@@ -1061,7 +1061,7 @@ h6 {
 #footer {
   padding: 0 0 30px 0;
   font-size: 14px;
-  background: #fff;
+  background: #f5f8fd;
 }
 
 #footer .footer-top {
