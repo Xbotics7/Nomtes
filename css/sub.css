@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(to right, #578FA8, #152F41);
+    color: white;
+    /* background-image: url("images/pattern_bg.svg"); */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subject-title {
+    font-weight: 600;
+}
+
+.subject {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 100%;
+    max-width: 70%;
+    background-color: rgb(255, 255, 255, 15%);
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3em;
+    transition: all .3s ease-out;
+}
+
+.subject:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 255, 255, 10%);
+    transform: scale(1.05);
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 62px);
+}
+
+#sem-title{
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.sub-img{
+    padding-bottom: 39%;
+    background: url(../images/sub5.svg);
+    background-size: cover;
+    margin-top: -30px;
+    margin-left: -70px;
+}
+
+/* Desktop CSS */
+@media (min-width: 768px) {
+    .main-cont {
+        min-height: auto;
+    }
+}
+
+/* Mobile CSS */
+@media (max-width: 768px) {
+
+    .subject-title{
+        text-align: center;
+        font-size: 1.7em;
+        margin-top: 20px;
+    }
+
+    #sem-title{
+        text-align: center;
+    }
+
+    .subject{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .sub-img{
+        padding-bottom: 75%;
+        margin-left: 0px;
+    }
+}

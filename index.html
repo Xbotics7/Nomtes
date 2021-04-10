@@ -1,340 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <title>Nomtes</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Tech" name="keywords">
-    <meta content="Nomtes - By Xbotics7" name="description">
-    <link rel="canonical" href="https://xbotics7.github.io/Nomtes/">
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/favicon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <title>Nomtes</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Tech" name="keywords" />
+  <meta content="Nomtes - By Xbotics7" name="description" />
+  <link rel="canonical" href="https://xbotics7.github.io/Nomtes/" />
 
-    <!-- Bootstrap Local CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <!-- Bootstrap Local CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
-    
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/header_style.css">
-    <link rel="stylesheet" href="./css/customStyle.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/anim.css">
 
-    <script src="https://kit.fontawesome.com/e1ce1771bd.js" crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175250230-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
 
-      gtag('config', 'UA-175250230-2');
-    </script>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark my-md-4 my-sm-2 mr-md-5">
+    <a class="navbar-brand" href="#">Nomtes</a>
+    <button class="navbar-toggler ml-auto mb-2" style="border: none" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <script src="js/myscript.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mt-2 mt-md-0 text-center">
+        <li class="nav-item active text-center">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
 
-  </head>
-
-  <body>
-    <header id="header">
-
-      <div id="topbar">
-        <div class="container">
-          <div class="social-links">
-            <a href="https://twitter.com/xbotics7" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
-           
-            <a href="https://www.instagram.com/xbotics7/" target="_blank"  class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="https://github.com/Xbotics7" target="_blank"  class="github"><i class="fa fa-github"></i></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="./course.html" id="navbarDropdown" role="button"
+            aria-haspopup="true" aria-expanded="false">
+            Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./sub.html?id=bca">BCA</a>
+            <a class="dropdown-item" href="./sub.html?id=bba">BBA</a>
+            <a class="dropdown-item" href="./sub.html?id=b.ed">B.Ed</a>
           </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contribute Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="main_section">
+    <div class="container-fluid main">
+      <div class="row" style="margin: 0">
+        <div class="col-md-6 bg-col order-md-2 come-in2"></div>
+
+        <div class="col-md-6 come-in2 d-flex align-items-center flex-column my-auto">
+          <div id="nomtes" class="">Nomtes</div>
+          <div id="innertext">Notes ke heavy driver</div>
+          <button class="btn mt-4" onclick="location.href='course.html';">
+            <i class="fa fa-book pr-2" aria-hidden="true"></i> Courses
+          </button>
         </div>
       </div>
-  
-      <div class="container">
-  
-        <div class="logo float-left">
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <h1 class="text-light"><a href="#intro" class="scrollto"><span>NOMTES</span></a></h1>
-          <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
-        </div>
-  
-        <nav class="main-nav float-right d-none d-lg-block">
-          <ul>
-            <li class="active"><a href="#intro">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="../blog">Blogspot</a></li>
-            <li><a href="#footer">About Us</a></li>
-            <!--<li class="drop-down"><a href="">Drop Down</a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="drop-down"><a href="#">Drop Down 2</a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-                <li><a href="#">Drop Down 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#footer">Contact Us</a></li>-->
-          </ul>
-        </nav>
-        
-      </div>
-    </header>
-    
-    <section id="intro" class="clearfix">
-    <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <img src="./assets/main_icon.png" class="nomtes_icon" alt="Nomtes">
-        <h1 class="nomtes_title font-weight-bold" style="margin-top: 10px;">NOMTES</h1>
-        
-        <p class="lead font-weight-normal" style="margin-bottom: 10px;">A beautiful and easy to use app which provides free quality notes and study materials for BCA students</p>
-        <p class="typewrite" data-period="2000" data-type='[ "Study with Nomtes", "BY STUDENTS FOR STUDENTS", "CHEEMS"]'>
-          <span class="wrap"></span>
-        </p>
-        <a class="btn btn-primary btn-lg btnDownload" href="https://bit.ly/3bqCys0"><i class="fas fa-chevron-circle-down" style="margin-right: 10px;"></i>DOWNLOAD</a>
-        
-      </div>
-      <div class="product-device shadow-sm d-none d-lg-block ss_left"></div>
-      <div class="product-device product-device-2 shadow-sm d-none d-lg-block ss_right"></div>
+    </div>
+
+    <div class="d-flex come-in2 justify-content-center align-self-center mt-md-5 fixed-bottom pos">
+      <button class="btnAndroid my-4">
+        <i class="fa fa-android pr-2"></i> Android App
+      </button>
+    </div>
+
+    <div class="social-parent come-in2">
+      <a class="social-icon" href="https://www.instagram.com/xbotics7/" target="_blank"><i
+          class="fa icons fa-instagram fa-lg mr-3"></i></a>
+      <a class="social-icon" href="https://github.com/Xbotics7" target="_blank"><i
+          class="fa icons fa-github fa-lg my-4 mr-3"></i></a>
+      <a class="social-icon" href="https://twitter.com/xbotics7" target="_blank"><i
+          class="fa icons fa-twitter fa-lg"></i></a>
     </div>
   </section>
-    
-    
+</body>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <section class="section-white" id="features">
-      <div class="container">
-        <div class="row" style="padding-bottom: 20px;">
-          <div class="col-md-12 text-center">
-            <h2 class="font-weight-bold">Key Features</h2>
-            <p class="section-subtitle">Some of the key hightlights in Nomtes</p>
-          </div>
-          <div class="col-md-3">
-            <div class="about-box">
-              <div>
-                <i class="fas fa-video"></i>
-              </div>
-              <h3>Video Support</h3>
-              <p>Learn by watching videos available on different subjects easily</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="about-box">
-              <div>
-                <i class="fas fa-search"></i>
-              </div>
-              <h3>Powerful Search</h3>
-              <p>Directly Search the study material by subject name or subject code in the search bar.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="about-box">
-              <div>
-                <i class="fas fa-cloud-moon"></i>
-              </div>
-              <h3>Multiple Themes</h3>
-              <p>It also has multiple themes support for your mood.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="about-box">
-              <div class="hi-icon-wrap hi-icon-effect-8">
-                <i class="fa fa-thumbs-o-up "></i>
-              </div>
-              <h3>Easy To Use</h3>
-              <p>Nomtes has been beautifully designed and has a very Easy to Use UI.</p>
-            </div>
-          </div>
-        </div>
-          
-        <h2 class="font-weight-bold text-center">QUICK LOOK</h2>
-        <div class="video-wrap">
-          <iframe src="https://drive.google.com/file/d/1SVpCZZnr2MLex62MT8g8Ot6t21NdCW9G/preview"  width = "560" height= "315" frameborder="0"></iframe>
-       </div> 
-      </div>
-      
-  
-      <!--end container -->
-      <!-- 16:9 aspect ratio -->
-
-      <section class="section-grey">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <h3 class="font-weight-bold">Nomtes</h3>
-                <p>Being a first year student, me and my mates found it real hard to adapt to the preparation phase of college examinations.
-                  There's a lot to know and a lot to read from various sources which bewilders the students.<br>
-                  At that moment we realized the need of making an app consisting of all the possible notes, study materials,  books, previous years, etc at one place.<br>
-                  
-                  And we are overwhelmed to present you Nomtes: </br>
-                  
-                  A better way to learn and prepare for exams easily.</br>
-                 </p>
-                <blockquote style="padding-left: 10px;">BY BCA STUDENTS FOR BCA STUDENTS</blockquote>
-                <p>Just give it a shot, maybe you'll love it!</p>
-                <a class="btn btn-primary btn-lg btnDownload" href="https://bit.ly/3bqCys0"><i class="fas fa-chevron-circle-down" style="margin-right: 10px;"></i>DOWNLOAD</a>
-            
-                <p style="margin: 40px 0px 10px 0px;">Nomtes is fully open source Android project!</p>
-                <p style="margin: 0 0 5px 0;">Github</p>
-                <a href="https://github.com/Xbotics7/MSINotes" style="font-size: 50px;" target="_blank"><i class="fa fa-github"></i></a>
-              </div>
-              <div class="col-md-6">
-                <img src="./assets/display_phone.png" alt="mobile-devices" class="width-100 wow slideInRight" data-wow-delay="0.50s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-              </div>
-            </div>
-        </div>
-      </section>
-
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-          <div class="my-3">
-            <h2 class="font-weight-bold text-white">HOME</h2>
-            <p class="lead">Browse all semester from here</p>
-          </div>
-          <div class="bg-light shadow-sm mx-auto device-ss" style="background-image: url(./img/ss/home_dark.png);"></div>
-        </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3">
-            <h2 class="font-weight-bold text-dark">SUBJECTS</h2>
-            <p class="lead">Subjects from selected semester</p>
-          </div>
-          <div class="bg-dark shadow-sm mx-auto device-ss" style="background-image: url(./img/ss/sub_dark.png);"></div>
-        </div>
-      </div>
-      
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3">
-            <h2 class="font-weight-bold text-dark">NOTES, VIDEOS, BOOKS</h2>
-            <p class="lead">Notes and others useful options</p>
-          </div>
-          <div class="bg-dark shadow-sm mx-auto device-ss" style="background-image: url(./img/ss/notes_light.png);"></div>
-        </div>
-        <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-          <div class="my-3">
-            <h2 class="font-weight-bold text-white">BUILT-IN VIEWER</h2>
-            <p class="lead">You don't have to leave app to view notes, books, videos etc</p>
-          </div>
-          <div class="bg-light shadow-sm mx-auto device-ss" style="background-image: url(./img/ss/pdf_light.png);"></div>
-        </div>
-      </div>
-    </section>
-      <footer id="footer" class="section-bg">
-        <div class="footer-top">
-          <div class="container">
-    
-            <div class="row">
-    
-              <div class="col-lg-6">
-    
-                <div class="row">
-    
-                    <div class="col-sm-6">
-    
-                      <div class="footer-info">
-                        <a href="https://xbotics7.github.io/" style="color: #413e66;"><h3>XBOTICS7</h3></a>
-                        <p>Feel free to contact us!</p>
-                      </div>
-                    </div>
-    
-                    <div class="col-sm-6">
-                      <div class="footer-links">
-                       
-                        <ul>
-                          <li><a href="https://xbotics7.github.io/">Home</a></li>
-                          <!-- <li><a href="#projects">Projects</a></li> -->
-                          <li><a href="#about">About us</a></li>
-                          <!--<li><a href="#">Services</a></li>-->
-                          <!-- <li><a href="#">Terms of service</a></li>
-                          <li><a href="#">Privacy policy</a></li> -->
-                        </ul>
-                      </div>
-    
-                      <div class="footer-links">
-                        <h4>Contact Us</h4>
-                        <p>
-                          <strong>Email:</strong> xbotics7@gmail.com<br>
-                        </p>
-                      </div>
-    
-                      <div class="social-links">
-                        <a href="https://twitter.com/xbotics7" target="_blank"  class="twitter"><i class="fa fa-twitter"></i></a>
-                        
-                        <a href="https://www.instagram.com/xbotics7/" target="_blank"  class="instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="https://github.com/Xbotics7" target="_blank"  class="github"><i class="fa fa-github"></i></a>
-                      </div>
-    
-                    </div>
-    
-                </div>
-    
-              </div>
-    
-              <div class="col-lg-6">
-    
-               <p style="margin: 0;">Made with <strong>Love, Sweat and Tears</strong> </p>
-               <p style="margin-top: 10px;">By Students of BCA (1st Year)</p>
-    
-              </div>
-    
-              
-    
-            </div>
-    
-          </div>
-        </div>
-    
-        <div class="container text-center">
-          <img src="./img/cheems.png" alt="Cheems" style="margin-top: 20px;" height="100px" class="img_cheems"/>
-          <div class="copyright">
-            Nomtes is dedicated to our beloved Cheems.</br>
-          </br>
-          &copy; Copyright 2021 : <a href="https://xbotics7.github.io/" style="color: black;"><strong>Xbotics7</strong>. </a>
-          </div>
-    
-        </div>
-      </footer><!-- #footer -->
-    
-      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/mobile-nav/mobile-nav.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
 </html>

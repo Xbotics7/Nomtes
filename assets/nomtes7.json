@@ -1,0 +1,513 @@
+{
+  "BCA" : {
+    "BCA 101" : {
+      "Akash_url" : "http://bit.ly/2JLqQcV",
+      "Book_url" : "http://bit.ly/2YJBwNW",
+      "Notes" : {
+        "notes1" : "http://bit.ly/37F75Ou"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2qtebF7",
+      "SubjectName" : "Mathematics – I",
+      "Youtube" : {
+        "Determinant" : "https://www.youtube.com/playlist?list=PLSUTYSVj7etzxi3o_dnEab50DFYIOgsI3",
+        "Differential Calculas" : "https://www.youtube.com/playlist?list=PLSUTYSVj7etzYljLRSVKrfnNBlGCvyp6E",
+        "Differentiation" : "https://www.youtube.com/playlist?list=PLHz3_2lRlEzpSkcheaJizPNyldHCiFBkC",
+        "Integrations" : "https://www.youtube.com/playlist?list=PLkW3zC7NnNHYIBBZeXCex_YETRDCtre4u"
+      }
+    },
+    "BCA 102" : {
+      "Akash_url" : "http://bit.ly/2VMFqZ6",
+      "Book_url" : "http://bit.ly/2IeMGXT",
+      "Notes" : {
+        "Unit 1" : "http://bit.ly/2S9CQWV",
+        "Unit 2" : "http://bit.ly/2V4bAeU",
+        "Unit 3" : "http://bit.ly/2V5NYXh",
+        "Unit 4" : "http://bit.ly/math_unit4"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2VlqvAx",
+      "SubjectName" : "Mathematics – II",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLHz3_2lRlEzqT6B1h-AhgtvIbdbK9RRb-",
+        "Vid3" : "https://www.youtube.com/playlist?list=PLmXKhU9FNesS7GpOddHDX3ZCl86_cwcIn",
+        "Vid4" : "https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz",
+        "vid2" : "https://www.youtube.com/playlist?list=PLHz3_2lRlEzr9pmT_Qpk3eJGdUuSr6FON"
+      }
+    },
+    "BCA 103" : {
+      "Akash_url" : "http://bit.ly/34rHRk6",
+      "Book_url" : "",
+      "Notes" : {
+        "Concepts and Fundamentals" : "http://bit.ly/2KuuLKD",
+        "Oral Communication" : "http://bit.ly/33ljNjx",
+        "Soft Skills" : "http://bit.ly/2KpK8E4",
+        "Written Communication" : "http://bit.ly/2ZFNSrI"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2r52vIL",
+      "SubjectName" : "Technical Communication",
+      "Youtube" : {
+        "yotube" : ""
+      }
+    },
+    "BCA 104" : {
+      "Akash_url" : "http://bit.ly/2GVfQHC",
+      "Book_url" : "",
+      "Notes" : {
+        "Unit 1" : "http://bit.ly/2U0M5dK",
+        "Unit 2" : "http://bit.ly/2V6jRPi",
+        "Unit 3" : "http://bit.ly/pom_unit3",
+        "Unit 4" : "http://bit.ly/pom_unit4"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2WQVRk3",
+      "SubjectName" : "Principles of Management",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLeWDeRMAMaffBCwESfmFmo0grMpwO8z1J"
+      }
+    },
+    "BCA 105" : {
+      "Akash_url" : "http://bit.ly/36sGzaq",
+      "Book_url" : "",
+      "Notes" : {
+        "notes1" : "http://bit.ly/2KSc8BF"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2KD4r26",
+      "SubjectName" : "Programming with C",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLLioQ130_xjVgW5MVfLS1s7zfLFAbGIVs",
+        "vid2" : "https://www.youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh"
+      }
+    },
+    "BCA 106" : {
+      "Akash_url" : "http://bit.ly/2Lmhpnw",
+      "Book_url" : "http://bit.ly/2tq221A",
+      "Notes" : {
+        "notes1" : ""
+      },
+      "Paper_analysis_url" : "http://bit.ly/2M8wrNZ",
+      "SubjectName" : "Digital Electronics",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm"
+      }
+    },
+    "BCA 107" : {
+      "Akash_url" : "http://bit.ly/36jH8DA",
+      "Book_url" : "",
+      "Notes" : {
+        "Unit 1 & 3" : "http://bit.ly/2Ktv5to",
+        "Unit 2 & 4" : "http://bit.ly/2yC7mBC"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2KDmC7P",
+      "SubjectName" : "Introduction to Computers & IT",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLWPirh4EWFpF_2T13UeEgZWZHc8nHBuXp"
+      }
+    },
+    "BCA 108" : {
+      "Akash_url" : "http://bit.ly/2PLg1cz",
+      "Book_url" : "",
+      "Notes" : {
+        "UNIT 1 + Unit 4" : "http://bit.ly/2T3zrNX",
+        "UNIT 2 - Linked Lists" : "http://bit.ly/2V4UgGv",
+        "UNIT 2+3 - Trees" : "http://bit.ly/2VM1aB7",
+        "UNIT 4 - Hashing" : "http://bit.ly/ds_hashing1"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2Lw940y",
+      "SubjectName" : "Data Structure using C",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU"
+      }
+    },
+    "BCA 109" : {
+      "Akash_url" : "http://bit.ly/2N4qqAF",
+      "Book_url" : "http://bit.ly/2Zg21Pj",
+      "Notes" : {
+        "notes1" : "http://bit.ly/2YHU5pF"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2O0LlF4",
+      "SubjectName" : "Physics",
+      "Youtube" : {
+        "Vid1" : "",
+        "vid2" : ""
+      }
+    },
+    "BCA 110" : {
+      "Akash_url" : "http://bit.ly/2W3aa4R",
+      "Book_url" : "",
+      "Notes" : {
+        "Unit 1 + Unit 2" : "http://bit.ly/2V1DIz3",
+        "Unit 3" : "http://bit.ly/2YSVgi6",
+        "Unit 4" : "http://bit.ly/dbms_unit4"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2J4Nxdt",
+      "SubjectName" : "Database Management System",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc"
+      }
+    },
+    "BCA 201" : {
+      "Akash_url" : "http://bit.ly/2PvCWdJ",
+      "Book_url" : "",
+      "Notes" : {
+        "Unit 1 & Unit 2 formulae" : "http://bit.ly/2kJRXf9",
+        "Unit 1: Measure Of Central Tendency and Dispersion" : "http://bit.ly/33kFYWG",
+        "Unit 2: Correlation & Regression" : "http://bit.ly/2lNFIhI",
+        "Unit 3 + 4" : "http://bit.ly/2BDFCxW"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2OAet6b",
+      "SubjectName" : "Mathematics – III",
+      "Youtube" : {
+        "Unit I and II" : "https://www.youtube.com/playlist?list=PLkW3zC7NnNHYhpN0e7LJW9MMDKyIT_dpV",
+        "Unit III and IV" : "https://www.youtube.com/playlist?list=PLabr9RWfBcnoLyXr4Y7MzmHSu3bDjLvhu"
+      }
+    },
+    "BCA 202" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : "http://bit.ly/3bJufoU"
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Mathematics – IV",
+      "Youtube" : {
+        "Combinatorics & Discrete Math II" : "https://www.youtube.com/playlist?list=PLl-gb0E4MII1_QX6h6TzMW3rF_7Taapyd",
+        "Numerical Analysis" : "https://www.youtube.com/playlist?list=PLU6SqdYcYsfLrTna7UuaVfGZYkNo0cpVC",
+        "Probability Distributions" : "https://www.youtube.com/playlist?list=PLaFfQroTgZnzbfK-Rie19FdV6diehETQy"
+      }
+    },
+    "BCA 203" : {
+      "Akash_url" : "http://bit.ly/34fTN8E",
+      "Book_url" : "",
+      "Notes" : {
+        "Notes by Mam" : "http://bit.ly/2rkb9TK",
+        "Unit 1" : "http://bit.ly/2jZUFwO",
+        "Unit 2" : "http://bit.ly/2qAufV8",
+        "Unit 3" : "http://bit.ly/32HIiXm",
+        "Unit 4" : "http://bit.ly/2s23UjH"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2CgyLe6",
+      "SubjectName" : "Computer Architecture",
+      "Youtube" : {
+        "Vid1" : "https://www.youtube.com/playlist?list=PLftJ4X48yC1nRU3-6h0P30rWoT-hznf74"
+      }
+    },
+    "BCA 204" : {
+      "Akash_url" : "https://bit.ly/3g5d9nN",
+      "Book_url" : "",
+      "Notes" : {
+        "Notes by Mam" : "http://bit.ly/2PG9alX",
+        "Unit 1" : "http://bit.ly/37vYnRm",
+        "Unit 2 - CSS" : "http://bit.ly/2I9YjfR",
+        "Unit 2 - JS" : "http://bit.ly/2vnizIm"
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Web Technologies",
+      "Youtube" : {
+        "CSS Tutorial for Beginners" : "https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C",
+        "HTML Tutorials" : "https://www.youtube.com/playlist?list=PL9OpiZLUnhZAfnqwbKuP_WdCsgaOC24qV",
+        "JavaScript Tutorial for Beginners" : "https://www.youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV",
+        "WT 4 Unit 4" : "https://www.youtube.com/playlist?list=PLkW3zC7NnNHa16dJjawlr6L_ckqUUs_ln",
+        "XML Tutorial" : "https://www.youtube.com/playlist?list=PLfX2IHFUV0cEEIMZYXX6N6z4u691LvsiI",
+        "dHTML" : "https://www.youtube.com/playlist?list=PLWWqE3Nx9YpvDDohYNl9HhU_pgh0YwnVk"
+      }
+    },
+    "BCA 205" : {
+      "Akash_url" : "http://bit.ly/36qRVvV",
+      "Book_url" : "http://bit.ly/35j7Zy7",
+      "Notes" : {
+        "Unit 1 & 2" : "http://bit.ly/2lHp8A9",
+        "Unit 3 & 4" : "http://bit.ly/34OVt9v"
+      },
+      "Paper_analysis_url" : "http://bit.ly/36kdFZr",
+      "SubjectName" : "Front End Design Tool VB.Net",
+      "Youtube" : {
+        "Unit1" : "https://www.youtube.com/playlist?list=PLS1QulWo1RIYLpgVN_CpXbkOQoYJTItzg",
+        "Unit2" : "https://www.youtube.com/playlist?list=PL6n9fhu94yhX5dzHunAI2t4kE0kOuv4D7"
+      }
+    },
+    "BCA 206" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : "http://bit.ly/2Vp4swP"
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Java Programming",
+      "YOUTUBE" : {
+        "Exception Handling in Java" : "https://www.youtube.com/playlist?list=PLsyeobzWxl7rS9B2K1l--VDpCn41gijnV",
+        "Java Applet Programming (Hindi)" : "https://www.youtube.com/playlist?list=PLbGui_ZYuhignGrO7DPr3kpZZ91yw4IEk",
+        "Java Database Connectivity (JDBC) by Navin Reddy" : "https://www.youtube.com/playlist?list=PLsyeobzWxl7rU7Jz3zDRpqB-EODzBbHOI",
+        "Java Swing GUI" : "https://www.youtube.com/playlist?list=PLsyeobzWxl7pVZdyDXj0arOdTzo4MYekh",
+        "Java Tutorial For Beginners (Step by Step tutorial)" : "https://www.youtube.com/playlist?list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al",
+        "Library Management System in Java(Netbeans) Complete Project (Step by Step )" : "https://www.youtube.com/playlist?list=PL_Ke9hJMFeR_TWfBOug40-2uSANxa8dtE",
+        "MultiThreading in Java with Lambda Expression" : "https://www.youtube.com/playlist?list=PLsyeobzWxl7rmuFYRpkqLanwoG4pQQ7oW",
+        "Network Fundamentals" : "https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8",
+        "Servlet and JSP Tutorial for Beginners 2018" : "https://www.youtube.com/playlist?list=PLsyeobzWxl7pUPF2xjjJiG4BKC9x_GY46"
+      }
+    },
+    "BCA 207" : {
+      "Akash_url" : "http://bit.ly/33qemz8",
+      "Book_url" : "",
+      "Notes" : {
+        "Unit 1 & 2" : "http://bit.ly/2kuzhQF",
+        "Unit 2 & 3" : "http://bit.ly/2JkyTx1",
+        "Unit 4" : "http://bit.ly/33aeyBW"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2LJo9tx",
+      "SubjectName" : "Principles of Accounting",
+      "Youtube" : {
+        "Vid" : "https://www.youtube.com/playlist?list=PLEJOTGLf455Dlox6VG_2ODwrG3jA0MJb5"
+      }
+    },
+    "BCA 208" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Software Engineering",
+      "YOUTUBE" : {
+        "SE" : "https://www.youtube.com/playlist?list=PL3oWeJK3GDfyHhD9JOBe-C3UO4o0OLFsk"
+      }
+    },
+    "BCA 209" : {
+      "Akash_url" : "http://bit.ly/2PKl6SU",
+      "Book_url" : "",
+      "Notes" : {
+        "Unit 1: Introduction & C++ Environment" : "http://bit.ly/2ZH0oHc",
+        "Unit 2: Classes & Objects" : "http://bit.ly/2ks7Sid",
+        "Unit 3: Inheritance & Polymorphism" : "http://bit.ly/335gMlY",
+        "Unit 4: Generic Programming" : "http://bit.ly/2rdmnJq"
+      },
+      "Paper_analysis_url" : "http://bit.ly/2LXoSr0",
+      "SubjectName" : "Object Oriented Programming using C++",
+      "Youtube" : {
+        "Vid" : "https://www.youtube.com/playlist?list=PLfVsf4Bjg79DLA5K3GLbIwf3baNVFO2Lq"
+      }
+    },
+    "BCA 210" : {
+      "Akash_url" : "",
+      "Book_url" : "http://bit.ly/2TLs1gS",
+      "Notes" : {
+        "Unit 1" : "http://bit.ly/381S886",
+        "Unit 2" : "http://bit.ly/2IicIGW"
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Computer Networks",
+      "YOUTUBE" : {
+        "CN" : "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_"
+      }
+    },
+    "BCA 301" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Operating System",
+      "YOUTUBE" : {
+        "OS" : "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"
+      }
+    },
+    "BCA 302" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Data Ware Housing & Data Mining",
+      "YOUTUBE" : {
+        "1 Data Warehousing and Data Mining in Hindi" : "https://www.youtube.com/playlist?list=PL-JvKqQx2AteuF5RnKVD0ZuW1_Tuk8H60",
+        "2 Datawarehouse and Data Mining Lectures in Hindi" : "https://www.youtube.com/playlist?list=PLV8vIYTIdSnb4H0JvSTt3PyCNFGGlO78u",
+        "3 Data Mining and Warehouse" : "https://www.youtube.com/playlist?list=PLYwpaL_SFmcChP0xiW3KK9elNuhfCLVVi",
+        "4 Data warehouse and data mining" : "https://www.youtube.com/playlist?list=PL0s3O6GgLL5fuVR545mzIuCkgGLi02fkN"
+      }
+    },
+    "BCA 303" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Computer Graphics",
+      "YOUTUBE" : {
+        "1 Computer Graphics (CG)" : "https://www.youtube.com/playlist?list=PLrjkTql3jnm9cY0ijEyr2fPdwnH-0t8EY",
+        "2 Computer Graphics" : "https://www.youtube.com/playlist?list=PLWPirh4EWFpHukXICQrDcmjZUa2WlLMAb"
+      }
+    },
+    "BCA 304" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Mobile Computing",
+      "YOUTUBE" : {
+        "1 Mobile Computing (MC)" : "https://www.youtube.com/playlist?list=PLrjkTql3jnm-kLRBgIt8kvuwbTScoI2IJ",
+        "2 Mobile Communication" : "https://www.youtube.com/playlist?list=PLYwpaL_SFmcAjqrKO-b9UMa2AaAlzZY7D",
+        "3 Mobile Computing IPU" : "https://www.youtube.com/playlist?list=PLPEhGb71u9EhlpzSedPmCBIocOTflCD5A"
+      }
+    },
+    "BCA 305" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "E- Commerce",
+      "YOUTUBE" : {
+        "1 E-Commerce Course" : "https://www.youtube.com/playlist?list=PL3N0yGp9djBkGcJIn6fbGRThUSmCnz5Qx",
+        "2 E-Commerce and M-Commerce Lectures" : "https://www.youtube.com/playlist?list=PLV8vIYTIdSnbh5dOzzOGYABSZLdguEbUG",
+        "3 Complete E-Commerce Course with Java and MySQL" : "https://www.youtube.com/playlist?list=PL7saoWAQ-9B5T8HmKTl4fRNPaEhdqOmgf",
+        "4 E- Commerce Tutorial 2019" : "https://www.youtube.com/playlist?list=PLbWX42QoZL5vhNjqqfyzLgbvUezv72ocC",
+        "5 ELECTRONIC PAYMENT SYSTEM" : "https://www.youtube.com/playlist?list=PLb8zN-8LXfQAkHpezdSvGXFyxiRD5fRPE",
+        "6 E-commerce" : "https://www.youtube.com/playlist?list=PLhf9MNcJXxbc8ZDS6qcX_pavRi9vxeCv4",
+        "7 Business Process Management Course" : "https://www.youtube.com/playlist?list=PL2LDY1TRcen1SCPmL1BY_yA1DijztcmIh",
+        "8 Trends in Technology and E-Commerce in India: Legal and Tax Issues" : "https://www.youtube.com/playlist?list=PLPhnxNKBMAoiKju0PQaOmzGo1uWVYnqxj",
+        "9 DIGITAL MARKETING - CAMPAIGNS CASE STUDIES" : "https://www.youtube.com/playlist?list=PL6mNfaiUSHTdIGAMXsaMYCZEWmHeHhyKM"
+      }
+    },
+    "BCA 306" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Linux Environment",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    },
+    "BCA 307" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Software Testing",
+      "YOUTUBE" : {
+        "Software Testing Training Videos | Edureka" : "https://www.youtube.com/playlist?list=PL9ooVrP1hQOHYamtWSSlt5jF52WvP0cHl"
+      }
+    },
+    "BCA 308" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Multimedia & Its Applications",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    },
+    "BCA 309" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Microprocessor",
+      "YOUTUBE" : {
+        "1 Microprocessor 8085" : "https://www.youtube.com/playlist?list=PLWPirh4EWFpFDi8bggPYOiMLlD1D_bBPM",
+        "2 MICROPROCESSOR GATE 2020 (EE&ECE&IN)" : "https://www.youtube.com/playlist?list=PL1XaeVNXKsvylDOYoZzxiWPd5CNvc3RYQ"
+      }
+    },
+    "BCA 310" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Bio Informatics",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    },
+    "BCA 311" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Advance Computer Networks",
+      "YOUTUBE" : {
+        "1 ADVANCED COMPUTER NETWORK" : "https://www.youtube.com/playlist?list=PLG9aCp4uE-s3Mmbn4q5J87OriIN3CuFDS",
+        "2 Advanced Computer Networks" : "https://www.youtube.com/playlist?list=PL3EA3BED31F20DE92",
+        "3 Full Series | 200-301 CCNA | Networking Inc" : "https://www.youtube.com/playlist?list=PLh94XVT4dq02frQRRZBHzvj2hwuhzSByN",
+        "4 NETWORK SECURITY & INFORMATION SECURITY" : "https://www.youtube.com/playlist?list=PLLOxZwkBK52Ch0y2lLtfepy4Lt_SVkwo3",
+        "5 Cryptography and network security" : "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8"
+      }
+    },
+    "BCA 312" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Artifical Intelligence",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    },
+    "BCA 313" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Web Based Programming",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    },
+    "BCA 314" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Network Security",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    },
+    "BCA 315" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Business Economics",
+      "YOUTUBE" : {
+        "1 UGC - Bcom, bba, ba, bca, honours ( Business economics)" : "https://www.youtube.com/playlist?list=PLgC10_Xv-BGirAqOr-hU8e-N_Nz0UpgJ-",
+        "2 CA Foundation - Business Economics" : "https://www.youtube.com/playlist?list=PLBiVUADzZpd_hh5lFerym1qSQ9TQfNYuW"
+      }
+    },
+    "BCA 316" : {
+      "Akash_url" : "",
+      "Book_url" : "",
+      "Notes" : {
+        "note1" : ""
+      },
+      "Paper_analysis_url" : "",
+      "SubjectName" : "Network Programming",
+      "YOUTUBE" : {
+        "yt" : ""
+      }
+    }
+  }
+}
