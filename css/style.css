@@ -42,7 +42,7 @@ body {
 }
 
 #nomtes {
-    /* margin-top: 150px ; */
+    margin-top: -80px;
     font-size: 6em;
     font-weight: bold;
     text-align: center
