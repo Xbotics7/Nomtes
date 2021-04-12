@@ -1,135 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nomtes</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomtes</title>
 
- <!--google font-->
- <link rel="preconnect" href="https://fonts.gstatic.com" />
- <link
-   href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-   rel="stylesheet"
- />
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
 
- <!-- Bootstrap CSS -->
- <link
-   rel="stylesheet"
-   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-   integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-   crossorigin="anonymous"
- />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
- <link rel="stylesheet" href="./css/style.css"/>
- <link rel="stylesheet" href="./css/anim.css">
- <link rel="stylesheet" href="./css/semStyle.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/anim.css">
+  <link rel="stylesheet" href="./css/semStyle.css" />
 
- <!-- icon library -->
- <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
- />
+  <!-- icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark my-md-4 my-sm-2 mr-md-5 ">
     <a class="navbar-brand" href="./">Nomtes</a>
-    <button class="navbar-toggler ml-auto mb-2" style="border:none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+    <button class="navbar-toggler ml-auto mb-2" style="border:none;" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mt-2 mt-md-0 text-center">
-            <li class="nav-item text-center">
-                <a class="nav-link" href="./">Home</a>
-            </li>
+      <ul class="navbar-nav ml-auto mt-2 mt-md-0 text-center">
+        <li class="nav-item text-center">
+          <a class="nav-link" href="./">Home</a>
+        </li>
 
-            <li class="nav-item dropdown active ">
-                <a class="nav-link dropdown-toggle" href="./course.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
-        Courses<span class="sr-only">(current)</span>
-      </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./sub.html?id=bca">BCA</a>
-                    <a class="dropdown-item" href="./sub.html?id=bba">BBA</a>
-                    <a class="dropdown-item" href="./sub.html?id=b.ed">B.Ed</a>
-                </div>
-            </li>
+        <li class="nav-item dropdown active ">
+          <a class="nav-link dropdown-toggle" href="./course.html" id="navbarDropdown" role="button"
+            aria-haspopup="true" aria-expanded="false">
+            Courses<span class="sr-only">(current)</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./sub.html?id=bca">BCA</a>
+            <a class="dropdown-item" href="./sub.html?id=bba">BBA</a>
+            <a class="dropdown-item" href="./sub.html?id=b.ed">B.Ed</a>
+          </div>
+        </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
-            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Us</a>
+        </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contribute Us</a>
-            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contribute Us</a>
+        </li>
 
-        </ul>
+      </ul>
 
     </div>
-</nav>
-    
-      <section class="main-section">
-          <div class="container-fluid main-cont">
-              <div class="row come-in2">
-                <div class="col-md-6 bg-col order-md-2" onclick="zoomsite()"></div>
-                  <div class="col-md-6  ml-md-5 mt-3 " >
-                    <h1 id="CourseName" >Bachelor Of Computer Application</h1>
-                   <div class="row come-in mt-3"> 
-                     <div class="col-md-8 mt-3 mb-2 year">1st Year</div> 
-                       <a class="col-md-4 col-5 btnPos ml-md-3 mr-md-5 text-center  buttonStyle" href="./sub.html?id=sem1" >Semester 1</a>
-                       <a class="col-md-4 col-5 btnPos  ml-md-3 mr-md-5 text-center buttonStyle"  href="./sub.html?id=sem2">Semester 2</a>
-                   </div>
-                   <div class="row come-in mt-3"> 
-                     <div class="col-md-8  mt-3 mb-2 year">2nd Year</div>
-                    <a class="col-md-4 col-5 btnPos ml-md-3 mr-md-5  text-center buttonStyle" href="./sub.html?id=sem3">Semester 3</a>
-                    <a class="col-md-4  col-5 btnPos ml-md-3 mr-md-5  text-center buttonStyle" href="./sub.html?id=sem4">Semester 4</a>
-                </div>
-                <div class="row come-in mt-3"> 
-                  <div class="col-md-8 mt-3 mb-2 year">3rd Year</div>
-                    <a class="col-md-4 col-5 btnPos ml-md-3 mr-md-5  text-center buttonStyle" href="./sub.html?id=sem5" >Semester 5</a>
-                    <a class="col-md-4 col-5  btnPos ml-md-3 mr-md-5 text-center buttonStyle" href="./sub.html?id=sem6">Semester 6</a>
-                </div>
-                </div>
-                 
-              </div>
-              <div class="social-parent come-in">
-                <a
-                  class="social-icon"
-                  href="https://www.instagram.com/xbotics7/"
-                  target="_blank"
-                  ><i class="fa icons fa-instagram fa-lg mr-3"></i
-                ></a>
-                <a
-                  class="social-icon"
-                  href="https://github.com/Xbotics7"
-                  target="_blank"
-                  ><i class="fa icons fa-github fa-lg my-4 mr-3"></i
-                ></a>
-                <a
-                  class="social-icon"
-                  href="https://twitter.com/xbotics7"
-                  target="_blank"
-                  ><i class="fa icons fa-twitter fa-lg"></i
-                ></a>
-              </div>
+  </nav>
+
+  <section class="main-section">
+    <div class="container-fluid main-cont">
+      <div class="row come-in2">
+        <div class="col-md-6 bg-col order-md-2" onclick="zoomsite()"></div>
+        <div class="col-md-6  ml-md-5 mt-3 ">
+          <h1 id="CourseName">Bachelor Of Computer Application</h1>
+          <div class="row come-in mt-3">
+            <div class="col-md-8 mt-3 mb-2 year">1st Year</div>
+            <a class="col-md-4 col-5 btnPos ml-md-3 mr-md-5 text-center  buttonStyle" href="./sub.html?id=sem1">Semester
+              1</a>
+            <a class="col-md-4 col-5 btnPos  ml-md-3 mr-md-5 text-center buttonStyle" href="./sub.html?id=sem2">Semester
+              2</a>
           </div>
-      </section>
-      
+          <div class="row come-in mt-3">
+            <div class="col-md-8  mt-3 mb-2 year">2nd Year</div>
+            <a class="col-md-4 col-5 btnPos ml-md-3 mr-md-5  text-center buttonStyle" href="./sub.html?id=sem3">Semester
+              3</a>
+            <a class="col-md-4  col-5 btnPos ml-md-3 mr-md-5  text-center buttonStyle"
+              href="./sub.html?id=sem4">Semester 4</a>
+          </div>
+          <div class="row come-in mt-3">
+            <div class="col-md-8 mt-3 mb-2 year">3rd Year</div>
+            <a class="col-md-4 col-5 btnPos ml-md-3 mr-md-5  text-center buttonStyle" href="./sub.html?id=sem5">Semester
+              5</a>
+            <a class="col-md-4 col-5  btnPos ml-md-3 mr-md-5 text-center buttonStyle" href="./sub.html?id=sem6">Semester
+              6</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="social-parent come-in">
+        <a class="social-icon" href="https://xbotics7.github.io/" target="_blank">
+            <img src="./images/x_30.png" alt="Xbotics7" height="26px" class="mr-3 mb-md-3"></a>
+        <a class="social-icon" href="https://www.instagram.com/xbotics7/" target="_blank"><i
+                class="fa fa-instagram fa-lg mr-3 icons"></i></a>
+        <a class="social-icon" href="https://github.com/Xbotics7" target="_blank"><i
+                class="fa fa-github fa-lg my-4 mr-3 icons"></i></a>
+        <a class="social-icon" href="https://twitter.com/xbotics7" target="_blank"><i
+                class="fa fa-twitter fa-lg icons"></i></a>
+      </div>
+    </div>
+  </section>
+
 </body>
 <script src="./js/sem.js"></script>
-<script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"
-  ></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </html>
