@@ -14,14 +14,23 @@ body {
     display: block;
     color: white;
     width: 100%;
-    max-width: 70%;
-    background-color: rgb(255, 255, 255, 15%);
-    padding: 25px;
-    margin-top: 25px;
+    max-width: 60%;
+    background-color: rgb(255, 255, 255, 10%);
+    border-top: 1px solid #ffffff1e;
+    padding: 30px;
     text-align: center;
-    border-radius: 5px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     transition: all .3s ease-out;
+}
+
+.subject:nth-child(3) {
+    margin-top: 25px;
+    border-radius: 10px 10px 0 0;
+    border-top: none;
+}
+
+.subject:last-child {
+    border-radius: 0 0 10px 10px;
 }
 
 .subject:hover {
@@ -37,12 +46,24 @@ body {
     min-height: calc(100vh - 62px);
 }
 
-#sem-title{
-    font-size: 1.3em;
+.course-info {
     margin-top: 20px;
+    display: flex;
 }
 
-.sub-img{
+.course-info>* {
+    font-size: 1.3em;
+}
+
+#sem-syllabus {
+    margin-top: -5px;
+    color: white;
+}
+#sem-syllabus:hover {
+    color: white;
+}
+
+.sub-img {
     padding-bottom: 39%;
     background: url(../images/sub5.svg);
     background-size: cover;
@@ -51,6 +72,7 @@ body {
 }
 
 /* Desktop CSS */
+
 @media (min-width: 768px) {
     .main-cont {
         min-height: auto;
@@ -58,25 +80,22 @@ body {
 }
 
 /* Mobile CSS */
-@media (max-width: 768px) {
 
-    .subject-title{
+@media (max-width: 768px) {
+    .subject-title {
         text-align: center;
         font-size: 1.7em;
         margin-top: 20px;
     }
-
-    #sem-title{
-        text-align: center;
+    .course-info {
+        justify-content: center;
     }
-
-    .subject{
+    .subject {
         margin-left: auto;
         margin-right: auto;
         max-width: 100%;
     }
-
-    .sub-img{
+    .sub-img {
         padding-bottom: 75%;
         margin-left: 0px;
     }
