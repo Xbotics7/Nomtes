@@ -16,36 +16,43 @@ switch (name) {
         selectedSem = sem1;
         document.getElementById("sem-title").innerText = "Semester 1";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/1NHEBDX6abXhIr_LQ9_7bxFPUZaANIRQV/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[0].className += " active";
         break;
     case "sem2":
         selectedSem = sem2;
         document.getElementById("sem-title").innerText = "Semester 2";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/1z_806K8prZ1XkiHzHJDN1h78YwIflwHt/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[1].className += " active";
         break;
     case "sem3":
         selectedSem = sem3;
         document.getElementById("sem-title").innerText = "Semester 3";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/18Ztc2JiHaPN08dQOLFaCEjebiKSLEorw/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[2].className += " active";
         break;
     case "sem4":
         selectedSem = sem4;
         document.getElementById("sem-title").innerText = "Semester 4";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/13z2ldJHVl6OgvuBfNmJ4qEUcJaYVuLzF/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[3].className += " active";
         break;
     case "sem5":
         selectedSem = sem5;
         document.getElementById("sem-title").innerText = "Semester 5";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/1eTM8sC2TeZkhZbpgdGfqUtVokICH3yeA/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[4].className += " active";
         break;
     case "sem6":
         selectedSem = sem6;
         document.getElementById("sem-title").innerText = "Semester 6";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/1ncmOwCpqmfWrRL2UTg_C5gN7cWB2HJOv/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[5].className += " active";
         break;
     default:
         selectedSem = sem1;
         document.getElementById("sem-title").innerText = "Semester 1";
         document.getElementById("sem-syllabus").href="https://drive.google.com/file/d/1NHEBDX6abXhIr_LQ9_7bxFPUZaANIRQV/view";
+        document.getElementsByClassName("sem-drop-menu")[0].getElementsByClassName("dropdown-item")[0].className += " active";
         break;
 }
 

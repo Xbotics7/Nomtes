@@ -91,7 +91,21 @@ body {
     text-decoration: none;
 }
 
+.sem-drop-menu{
+    padding: 0;
+    border: 0;
+}
 
+.sem-drop-menu .dropdown-item:nth-child(6) {
+    border: 0;
+}
+
+.sem-drop-menu .dropdown-item {
+    display: flex;
+    justify-content: center;
+    padding: 10px 60px;
+    border-bottom: 1px solid #ebebebb8;
+}
 /* Desktop CSS */
 
 @media (min-width: 768px) {

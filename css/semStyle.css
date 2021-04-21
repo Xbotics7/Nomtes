@@ -72,6 +72,29 @@ a:hover {
     text-decoration: none;
 }
 
+.course-syllabus {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 30%;
+    max-width: 70%;
+    background-color: rgb(255, 255, 255, 15%);
+    transition: all .3s ease-out;
+    height: 50px;
+    padding-top: 15px;
+    margin: 40px 0; 
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.course-syllabus:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 255, 255, 10%);
+    transform: scale(1.05);
+}
+
 /* Desktop CSS */
 @media (min-width: 768px) {
     .main-cont {
@@ -105,5 +128,8 @@ a:hover {
 
     #CourseName{
         font-size: 1.7em;
+    }
+    .course-syllabus {
+        margin: 40px auto;
     }
 }
