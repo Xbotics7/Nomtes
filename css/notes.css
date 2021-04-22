@@ -18,14 +18,23 @@ body {
     display: block;
     color: white;
     width: 100%;
-    max-width: 70%;
-    background-color: rgb(255, 255, 255, 15%);
-    padding: 25px;
-    margin-top: 25px;
+    max-width: 60%;
+    background-color: rgb(255, 255, 255, 10%);
+    border-top: 1px solid #ffffff1e;
+    padding: 30px;
     text-align: center;
-    border-radius: 5px;
-    font-size: 1.3em;
+    font-size: 1.6em;
     transition: all .3s ease-out;
+}
+
+.notesBtn:nth-child(3) {
+    margin-top: 25px;
+    border-radius: 10px 10px 0 0;
+    border-top: none;
+}
+
+.notesBtn:last-child {
+    border-radius: 0 0 10px 10px;
 }
 
 .notesBtn:hover {

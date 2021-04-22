@@ -6,59 +6,67 @@ var sem5 = ["BCA 301", "BCA 303", "BCA 305", "BCA 307", "BCA 309", "BCA 311", "B
 var sem6 = ["BCA 302", "BCA 304", "BCA 306", "BCA 308", "BCA 310", "BCA 312", "BCA 314", "BCA 316"];
 
 let params = (new URL(document.location)).searchParams;
-let name = params.get("id");
+let sub_id = params.get("id");
 
-document.getElementById("sub-code").innerText = name;
+document.getElementById("sub-code").innerText = sub_id;
 
-if(sem1.includes(name))
-{
-    document.getElementById("sem-title").innerText = "Semester 1"; 
+if (sem1.includes(sub_id)) {
+    document.getElementById("sem-title").innerText = "Semester 1";
 }
-else if(sem2.includes(name))
-{
-    document.getElementById("sem-title").innerText = "Semester 2"; 
-
+else if (sem2.includes(sub_id)) {
+    document.getElementById("sem-title").innerText = "Semester 2";
 }
-else if(sem3.includes(name))
-{
-    document.getElementById("sem-title").innerText = "Semester 3"; 
-
+else if (sem3.includes(sub_id)) {
+    document.getElementById("sem-title").innerText = "Semester 3";
 }
-else if(sem4.includes(name))
-{
-    document.getElementById("sem-title").innerText = "Semester 4"; 
-
+else if (sem4.includes(sub_id)) {
+    document.getElementById("sem-title").innerText = "Semester 4";
 }
-else if(sem5.includes(name))
-{
-    document.getElementById("sem-title").innerText = "Semester 5"; 
-
+else if (sem5.includes(sub_id)) {
+    document.getElementById("sem-title").innerText = "Semester 5";
 }
-else
-{
-    document.getElementById("sem-title").innerText = "Semester 6"; 
-
+else {
+    document.getElementById("sem-title").innerText = "Semester 6";
 }
 
 
 var notesData = {};
+var notes_collec;
+var notes_collec_object;
 
-$.getJSON("https://raw.githubusercontent.com/Xbotics7/NomtesTest/master/assets/nomtes7.json", function (data) {
+$.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
 
-    notesData = data.BCA[name]
-    console.log(notesData["Akash_url"])
-  
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Akash_url"]}'>
+    notesData = data.BCA[sub_id]
+    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" onclick="openNotes()" href="#">
+    <i class="fa fa-sticky-note fa-lg mr-2"></i>
+    Notes
+    </a>`
+    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Akash_url"]}' target="_blank">
+    <i class="fa fa-bookmark fa-lg mr-2"></i>
     Akash
     </a>`
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Book_url"]}'>
+    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Book_url"]}' target="_blank">
+    <i class="fa fa-book fa-lg mr-2"></i>
     Book
     </a>`
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Paper_analysis_url"]}'>
+    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Paper_analysis_url"]}' target="_blank">
+    <i class="fa fa-file-text-o fa-lg mr-2"></i>
     Paper Analysis
     </a>`
-    
-    document.getElementById("sub-title").innerText = notesData["SubjectName"];
+    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" onclick="openVideos()" href="#">
+    <i class="fa fa-video-camera fa-lg mr-2"></i>
+    Videos
+    </a>`
 
+    document.getElementById("sub-title").innerText = notesData["SubjectName"];
+    notes_collec = notesData["Notes"]
+    notes_collec_object = Object.keys(notes_collec);
+})
+
+function openNotes() {
+    if (notes_collec_object.length <= 1) {
+
+        window.open(notes_collec[notes_collec_object[0]]);
+    }
 }
-)
+

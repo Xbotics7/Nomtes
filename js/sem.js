@@ -1,8 +1,8 @@
 let params = (new URL(document.location)).searchParams;
-let name = params.get("id");
-console.log(name);
+let sub_id = params.get("id");
+console.log(sub_id);
 
-if(name=="BBA"){
+if(sub_id=="BBA"){
     document.getElementById("CourseName").innerText = "Bachelor Of Business Administration";
 }
 

@@ -8,10 +8,10 @@ var sem6 = ["BCA 302", "BCA 304", "BCA 306", "BCA 308", "BCA 310", "BCA 312", "B
 var selectedSem = [];
 
 let params = (new URL(document.location)).searchParams;
-let name = params.get("id");
+let sub_id = params.get("id");
 
 
-switch (name) {
+switch (sub_id) {
     case "sem1":
         selectedSem = sem1;
         document.getElementById("sem-title").innerText = "Semester 1";
@@ -58,7 +58,7 @@ switch (name) {
 
 
 var notesData = {};
-$.getJSON("https://raw.githubusercontent.com/Xbotics7/NomtesTest/master/assets/nomtes7.json", function (data) {
+$.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
     
     notesData = data.BCA
     // var bruh = data.BCA['BCA 101'];

@@ -60,6 +60,7 @@ h1 {
 
 .buttonStyle:hover{
     transform: scale(1.05);
+    box-shadow: 0px 0px 20px 2px #00000013;
 }
 
 a {
@@ -73,26 +74,17 @@ a:hover {
 }
 
 .course-syllabus {
-    text-decoration: none;
     display: block;
     color: white;
-    width: 30%;
-    max-width: 70%;
-    background-color: rgb(255, 255, 255, 15%);
-    transition: all .3s ease-out;
-    height: 50px;
-    padding-top: 15px;
-    margin: 40px 0; 
-    text-align: center;
-    border-radius: 5px;
-    font-size: 1em;
+    background-color: transparent;
+    margin-top: 20px; 
+    font-size: 1.3em;
+    width: fit-content;
 }
 
 .course-syllabus:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
-    background-color: rgb(255, 255, 255, 10%);
-    transform: scale(1.05);
 }
 
 /* Desktop CSS */
@@ -130,6 +122,6 @@ a:hover {
         font-size: 1.7em;
     }
     .course-syllabus {
-        margin: 40px auto;
+       margin: 15px auto;
     }
 }
