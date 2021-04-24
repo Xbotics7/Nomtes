@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-    
-        <meta charset="utf-8">
-        <title>Nomtes</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Tech" name="keywords">
-        <meta content="Nomtes - By Xbotics7" name="description">
-        <link rel="canonical" href="https://xbotics7.github.io/Nomtes/Courses">
-    
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-    
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/notes.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/anim.css">
-    </head>
+
+<head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <title>Nomtes</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Tech" name="keywords">
+    <meta content="Nomtes - By Xbotics7" name="description">
+    <link rel="canonical" href="https://xbotics7.github.io/Nomtes/Courses">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/notes.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/anim.css">
+</head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark my-md-4 my-sm-2 mr-md-5">
@@ -65,25 +67,40 @@
         <div class="container-fluid ml-md-2">
 
             <div class="row" style="margin-left: -10px;">
-                
+
                 <div class="col-md-6 come-in ml-md-4" id="notes-cont">
-                   
+
                     <h1 class="course-title">
                         Bachelor of Computer Application
                     </h1>
-                    <div class="course-info">  
-                    <h3 id="sem-title">
-                        Semester 2 
-                    </h3>
-                        
-                    <h3 class="mx-3" id="sub-title">
-                        DBMS
-                    </h3>
-                       
-                    <h3 id="sub-code">
-                        Bca 69
-                    </h3>
-                   </div> 
+                    <div class="course-info">
+                        <div class="row">
+
+                            <div class="dropdown sub-drop col-sm-12 col-md-auto">
+                                <a id="sub-title" class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    DBMS
+                                </a>
+
+                                <div class="dropdown-menu sub-drop-menu" id="sub-drop-cont" aria-labelledby="sub-title">
+                                </div>
+                            </div>
+                            <div class="col-auto course-second-cont mt-2 mt-md-0" style="font-size: 1.3em;">
+                                <h3 class="mr-3 d-none d-md-block">/</h3>
+                                <h3 id="sem-title">
+                                    Semester 2
+                                </h3>
+
+                                <h3 class="mx-3">/</h3>
+
+
+                                <h3 id="sub-code">
+                                    Bca 69
+                                </h3>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,5 +127,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="./js/notes.js" ></script>
+<script src="./js/notes.js"></script>
+
 </html>

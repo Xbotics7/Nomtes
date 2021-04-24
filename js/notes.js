@@ -7,27 +7,41 @@ var sem6 = ["BCA 302", "BCA 304", "BCA 306", "BCA 308", "BCA 310", "BCA 312", "B
 
 let params = (new URL(document.location)).searchParams;
 let sub_id = params.get("id");
+if (sub_id === null)
+    sub_id = "BCA 101"
+var selectedSem = [];
 
 document.getElementById("sub-code").innerText = sub_id;
 
 if (sem1.includes(sub_id)) {
     document.getElementById("sem-title").innerText = "Semester 1";
+    selectedSem = sem1;
 }
 else if (sem2.includes(sub_id)) {
     document.getElementById("sem-title").innerText = "Semester 2";
+    selectedSem = sem2;
 }
 else if (sem3.includes(sub_id)) {
     document.getElementById("sem-title").innerText = "Semester 3";
+    selectedSem = sem3;
 }
 else if (sem4.includes(sub_id)) {
     document.getElementById("sem-title").innerText = "Semester 4";
+    selectedSem = sem4;
 }
 else if (sem5.includes(sub_id)) {
     document.getElementById("sem-title").innerText = "Semester 5";
+    selectedSem = sem5;
+}
+else if (sem6.includes(sub_id)) {
+    document.getElementById("sem-title").innerText = "Semester 6";
+    selectedSem = sem6;
 }
 else {
-    document.getElementById("sem-title").innerText = "Semester 6";
+    document.getElementById("sem-title").innerText = "Semester 1";
+    selectedSem = sem1;
 }
+
 
 
 var notesData = {};
@@ -35,6 +49,25 @@ var notes_collec;
 var notes_collec_object;
 
 $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
+
+    selectedSem.forEach(el => {
+        console.log(data.BCA[el]["SubjectName"])
+
+        if (el === sub_id) {
+            document.getElementById("sub-drop-cont").innerHTML += ` <a class="dropdown-item active" href="./notes.html?id=${el}">
+        
+            ${data.BCA[el]["SubjectName"]}
+            </a>`
+        }
+        else {
+            document.getElementById("sub-drop-cont").innerHTML += ` <a class="dropdown-item" href="./notes.html?id=${el}">
+            
+            ${data.BCA[el]["SubjectName"]}
+            </a>`
+        }
+    })
+
+
 
     notesData = data.BCA[sub_id]
     document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" onclick="openNotes()" href="#">
@@ -58,7 +91,10 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomte
     Videos
     </a>`
 
-    document.getElementById("sub-title").innerText = notesData["SubjectName"];
+    var res = notesData["SubjectName"].substr(0, 15);
+    if (notesData["SubjectName"].length > 15)
+        res = res + "..."
+    document.getElementById("sub-title").innerText = res;
     notes_collec = notesData["Notes"]
     notes_collec_object = Object.keys(notes_collec);
 })
