@@ -99,6 +99,32 @@ body {
 }
 
 
+.sly-unit{
+    text-transform: capitalize;
+    font-size: 1.0em;
+}
+
+.sly-title{
+    font-weight: 600;
+}
+
+.sly-cont{
+    margin-bottom: 30px;
+}
+
+#course-sly{
+    
+    background-color: rgb(255, 255, 255, 10%);
+    border-radius: 10px;
+    padding: 25px 25px 0px 25px;
+    margin-left: auto;
+    margin-right: 60px;
+    max-width: 800px;
+    overflow-y: scroll;
+    max-height: calc(100vh - 150px);
+}
+
+
 
 /* Desktop CSS */
 @media (min-width: 768px) {
