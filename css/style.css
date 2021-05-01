@@ -66,7 +66,7 @@ body {
     box-shadow: 0px 5px 20px 2px #00000017;
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.05);
 }
 
@@ -94,7 +94,7 @@ body {
     transition: all .3s ease-out;
 }
 
-.social-icon > i, .social-icon > img{
+.social-icon>i, .social-icon>img {
     transition: all .3s ease-out;
 }
 
@@ -103,7 +103,7 @@ body {
     color: white;
 }
 
-.social-icon:hover > i, .social-icon:hover > img {
+.social-icon:hover>i, .social-icon:hover>img {
     transform: scale(1.2);
 }
 
@@ -123,10 +123,16 @@ body {
 }
 
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:-5px; }
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {}
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: -5px;
+    }
 }
 
 @keyframes come-in {
@@ -136,6 +142,7 @@ body {
 }
 
 /* Mobile CSS */
+
 @media only screen and (max-width: 768px) {
     .bg-col {
         padding-bottom: 70%;
@@ -159,6 +166,11 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+    .nomtes_icon {
+        height: 150px;
+        margin-bottom: 30px;
+        margin-top: -20px;
+    }
     #nomtes {
         /* margin-top: 150px ; */
         font-size: 4em;
@@ -168,13 +180,13 @@ body {
     .fixed-bottom {
         position: static !important;
     }
-
-    body{
+    body {
         background-image: linear-gradient( #559bbb, #1e4e6f);
     }
 }
 
 /* Desktop CSS */
+
 @media (min-width: 768px) {
     .social-parent {
         margin-right: 0px;

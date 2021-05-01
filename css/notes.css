@@ -26,6 +26,15 @@ body {
     font-size: 0.8em;
 }
 
+#sem-title{
+    margin-top: -5px;
+    color: white;
+}
+
+#sem-title:hover{
+    color: white;
+}
+
 .notesBtn {
     text-decoration: none;
     display: block;
@@ -51,6 +60,27 @@ body {
 }
 
 .notesBtn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 255, 255, 10%);
+    transform: scale(1.05);
+}
+
+.notesPopBtn {
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: all .3s ease-out;
+}
+
+.notesPopBtn:hover {
     text-decoration: none;
     color: white;
     background-color: rgb(255, 255, 255, 10%);
@@ -86,6 +116,22 @@ body {
     border: 0;
 }
 
+.modal-content{
+    background-color: #0A7AC2;
+    border:none;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+}
+
+.modal-header{
+    border:none;
+    padding-bottom: 0;
+}
+
+.close{
+    font-size: 2.5em;
+}
+
 .sub-drop-menu .dropdown-item:last-child {
     border: 0;
 }
@@ -117,8 +163,34 @@ body {
     margin-left: auto;
     margin-right: 60px;
     max-width: 800px;
+    width: 100%;
     overflow-y: auto;
-    max-height: calc(100vh - 150px);
+    max-height: calc(100vh - 160px);
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff21;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e4e6f;
 }
 
 /* Desktop CSS */
@@ -145,6 +217,15 @@ body {
         margin-right: auto;
         max-width: 100%;
     }
+
+    .course-second-cont{
+        margin:0 auto;
+    }
+
+    .sub-drop{
+        text-align: center;
+    }
+
 }
 
 @media all and (min-width: 992px) {

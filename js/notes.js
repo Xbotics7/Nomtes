@@ -60,7 +60,6 @@ var notes_collec_object;
 $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
 
     selectedSem.forEach(el => {
-        console.log(data.BCA[el]["SubjectName"])
 
         if (el === sub_id) {
             document.getElementById("sub-drop-cont").innerHTML += ` <a class="dropdown-item active" href="./notes.html?id=${el}">
@@ -79,22 +78,29 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomte
 
 
     notesData = data.BCA[sub_id]
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" onclick="openNotes()" href="#">
+    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" id="notesPop" onclick="openNotes()" href="#">
     <i class="fa fa-sticky-note fa-lg mr-2"></i>
     Notes
     </a>`
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Akash_url"]}' target="_blank">
-    <i class="fa fa-bookmark fa-lg mr-2"></i>
-    Akash
-    </a>`
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Book_url"]}' target="_blank">
-    <i class="fa fa-book fa-lg mr-2"></i>
-    Book
-    </a>`
-    document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Paper_analysis_url"]}' target="_blank">
-    <i class="fa fa-file-text-o fa-lg mr-2"></i>
-    Paper Analysis
-    </a>`
+
+    if (notesData["Akash_url"] !== "") {
+        document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Akash_url"]}' target="_blank">
+        <i class="fa fa-bookmark fa-lg mr-2"></i>
+        Akash
+        </a>`
+    }
+    if (notesData["Book_url"] !== "") {
+        document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Book_url"]}' target="_blank">
+        <i class="fa fa-book fa-lg mr-2"></i>
+        Book
+        </a>`
+    }
+    if (notesData["Paper_analysis_url"] !== "") {
+        document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Paper_analysis_url"]}' target="_blank">
+        <i class="fa fa-file-text-o fa-lg mr-2"></i>
+        Paper Analysis
+        </a>`
+    }
     document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" onclick="openVideos()" href="#">
     <i class="fa fa-video-camera fa-lg mr-2"></i>
     Videos
@@ -119,16 +125,23 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/bruh/main/course.json", fu
     var semsly_obj = Object.keys(semsly["subjects"]);
 
     for (i = 0; i < semsly_obj.length; i++) {
+
         var bruh = semsly["subjects"][semsly_obj[i]];
 
         var notes = Object.keys(bruh);
-        var sly = bruh[notes[2]]
+
+        var sly = bruh["syllabus"]
+
         var sly_obj = Object.keys(sly);
-        console.log(course_code)
-        if (bruh[notes[1]].toString() === course_code) {
+
+        if (bruh["paper_id"].toString() === course_code) {
+
             for (j = 0; j < sly_obj.length; j++) {
+
                 var slynew = sly[sly_obj[j]];
+
                 var title = slynew["title"]
+
                 var chap = slynew["chapters"]
 
                 document.getElementById("course-sly").innerHTML += ` <div class="sly-cont">
@@ -150,9 +163,32 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/bruh/main/course.json", fu
 })
 
 function openNotes() {
-    if (notes_collec_object.length <= 1) {
 
-        window.open(notes_collec[notes_collec_object[0]]);
+    if (notes_collec_object.length <= 1) {
+        if (notes_collec[notes_collec_object[0]] !== "")
+            window.open(notes_collec[notes_collec_object[0]]);
+        else {
+            $('.alert').alert('show')
+           
+        }
     }
+    else {
+        $('#notesModalCenter').modal({
+            keyboard: false
+        })
+        document.getElementById("notes-pop-body").innerHTML = "";
+        for (i = 0; i < notes_collec_object.length; i++) {
+            document.getElementById("notes-pop-body").innerHTML += `<a class="notesPopBtn" href='${notes_collec[notes_collec_object[i]]}' target="_blank">
+            <i class="fa fa-sticky-note fa-lg mr-2"></i>
+            ${notes_collec_object[i]}
+            </a>`
+        }
+    }
+
 }
+
+function openVideos(){
+    window.open(location.href='vid.html?id=' + sub_id);
+}
+
 

@@ -121,9 +121,10 @@
   margin-right: 80px;
   padding-bottom: 20px;
   text-align: right;
+  justify-content: flex-end;
 }
 
-.fixed-bottom{
+.fixed-bottom {
   margin-bottom: 10px;
 }
 
@@ -144,6 +145,7 @@
     margin-left: auto;
     padding-bottom: 20px;
     text-align: right;
+    justify-content: center;
   }
   .container-header-social {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -166,9 +168,7 @@
   .social-link-div {
     margin-right: 0px;
   }
-  
-  .about-content {
-  }
+  .about-content {}
   .about-pad {
     padding-left: 20px;
   }

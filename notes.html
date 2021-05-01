@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <title>Nomtes - Free Notes, Akash, for BCA course</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Tech" name="keywords" />
+    <meta content="Nomtes - Get High quality Notes, Akash, Question Paper and videos for BCA course"
+        name="description" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://xbotics7.github.io/Nomtes/notes.html" />
 
-    <meta charset="utf-8">
-    <title>Nomtes</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Tech" name="keywords">
-    <meta content="Nomtes - By Xbotics7" name="description">
-    <link rel="canonical" href="https://xbotics7.github.io/Nomtes/Courses">
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/favicon.png" rel="apple-touch-icon">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -23,6 +26,16 @@
     <link rel="stylesheet" href="css/notes.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/anim.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175250230-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175250230-2');
+    </script>
+
 </head>
 
 <body>
@@ -55,10 +68,6 @@
                     <a class="nav-link" href="./about.html">About Us</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contribute</a>
-                </li>
-
             </ul>
 
         </div>
@@ -66,7 +75,7 @@
     <div class="container-fluid main-cont">
         <div class="container-fluid ml-md-2">
 
-            <div class="row" style="margin-left: -10px;">
+            <div class="row" style="margin-left: 10px;">
 
                 <div class="col-md-6 come-in" id="notes-cont">
 
@@ -79,30 +88,31 @@
                             <div class="dropdown sub-drop col-sm-12 col-md-auto">
                                 <a id="sub-title" class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    DBMS
+                                    
                                 </a>
 
                                 <div class="dropdown-menu sub-drop-menu" id="sub-drop-cont" aria-labelledby="sub-title">
                                 </div>
                             </div>
-                            <div class="col-auto course-second-cont mt-2 mt-md-0" style="font-size: 1.3em;">
+                            <div class="col-auto course-second-cont mt-4 mt-md-0" style="font-size: 1.3em;">
                                 <h3 class="mr-3 d-none d-md-block">/</h3>
-                                <h3 id="sem-title">
-                                    Semester 2
-                                </h3>
+                                <a id="sem-title" href="./semester.html?id=BCA">
+                                    
+                                </a>
 
                                 <h3 class="mx-3">/</h3>
 
 
                                 <h3 id="sub-code">
-                                    Bca 69
+                                    
                                 </h3>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 come-in" >
+                <div class="col-md-6 come-in mt-4 mt-md-0">
+                    <h2 class="text-center font-weight-bold">Syllabus</h2>
                     <div id="course-sly">
 
                     </div>
@@ -120,18 +130,36 @@
                     class="fa fa-twitter fa-lg icons"></i></a>
         </div>
     </div>
+    <div class="modal fade" id="notesModalCenter" tabindex="-1" role="dialog" aria-labelledby="notesModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title font-weight-bold" id="notesModalLongTitle">NOTES</h2>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="notes-pop-body"> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-danger d-none" role="alert">
+        Sorry! No Notes available right now..
+    </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="./js/notes.js"></script>
 
 </html>
