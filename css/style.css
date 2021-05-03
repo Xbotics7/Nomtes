@@ -24,8 +24,13 @@ body {
 
 .main_section {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     min-height: auto;
+    flex: 1;
+}
+
+.main{
+    flex: 1;
 }
 
 .bg-col {
@@ -79,11 +84,13 @@ body {
     color: white;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 5px 20px 2px #00000017;
+    transition: all .3s ease-out;
 }
 
 .btnAndroid:hover {
     color: #212529;
     text-decoration: none;
+    transform: scale(1.05);
 }
 
 .social-icon {
