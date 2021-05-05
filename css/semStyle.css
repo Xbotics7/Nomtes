@@ -58,7 +58,7 @@ h1 {
     transition: all .3s ease-out;
 }
 
-.buttonStyle:hover{
+.buttonStyle:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 20px 2px #00000013;
 }
@@ -77,7 +77,7 @@ a:hover {
     display: block;
     color: white;
     background-color: transparent;
-    margin-top: 20px; 
+    margin-top: 20px;
     font-size: 1.3em;
     width: fit-content;
 }
@@ -88,6 +88,7 @@ a:hover {
 }
 
 /* Desktop CSS */
+
 @media (min-width: 768px) {
     .main-cont {
         min-height: auto;
@@ -117,11 +118,10 @@ a:hover {
         font-weight: bold;
         text-align: center;
     }
-
-    #CourseName{
+    #CourseName {
         font-size: 1.7em;
     }
     .course-syllabus {
-       margin: 15px auto;
+        margin: 15px auto;
     }
 }

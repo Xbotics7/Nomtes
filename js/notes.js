@@ -169,7 +169,7 @@ function openNotes() {
             window.open(notes_collec[notes_collec_object[0]]);
         else {
             $('.alert').alert('show')
-           
+
         }
     }
     else {
@@ -187,8 +187,8 @@ function openNotes() {
 
 }
 
-function openVideos(){
-    window.open(location.href='vid.html?id=' + sub_id);
+function openVideos() {
+    window.open(location.href = 'vid.html?id=' + sub_id);
 }
 
 

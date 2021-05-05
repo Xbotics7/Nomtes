@@ -84,8 +84,8 @@ function youtube_playlist_parser(url) {
 
 }
 
-function openVid(vid_url, title, obj){
-   
+function openVid(vid_url, title, obj) {
+
     document.getElementById("vid-title").innerText = title;
 
     document.getElementById("vid-frame").innerHTML = `

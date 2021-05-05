@@ -26,12 +26,12 @@ body {
     font-size: 0.8em;
 }
 
-#sem-title{
+#sem-title {
     margin-top: -5px;
     color: white;
 }
 
-#sem-title:hover{
+#sem-title:hover {
     color: white;
 }
 
@@ -116,19 +116,19 @@ body {
     border: 0;
 }
 
-.modal-content{
+.modal-content {
     background-color: #0A7AC2;
-    border:none;
+    border: none;
     padding: 10px 20px;
     padding-bottom: 30px;
 }
 
-.modal-header{
-    border:none;
+.modal-header {
+    border: none;
     padding-bottom: 0;
 }
 
-.close{
+.close {
     font-size: 2.5em;
 }
 
@@ -168,10 +168,14 @@ body {
     max-height: calc(100vh - 160px);
 }
 
+.row-cont {
+    margin-left: 10px;
+}
+
 /* width */
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
 }
 
 /* Track */
@@ -217,15 +221,15 @@ body {
         margin-right: auto;
         max-width: 100%;
     }
-
-    .course-second-cont{
-        margin:0 auto;
+    .course-second-cont {
+        margin: 0 auto;
     }
-
-    .sub-drop{
+    .sub-drop {
         text-align: center;
     }
-
+    .row-cont {
+        margin-left: -10px;
+    }
 }
 
 @media all and (min-width: 992px) {

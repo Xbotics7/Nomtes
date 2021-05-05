@@ -1,8 +1,6 @@
+#vid-list-cont {}
 
-#vid-list-cont{
-}
-
-#vid-title{
+#vid-title {
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -34,6 +32,10 @@
     min-height: calc(100vh - 62px);
 }
 
+.row-cont {
+    margin-left: 10px;
+}
+
 /* Desktop CSS */
 
 @media (min-width: 768px) {
@@ -42,3 +44,19 @@
     }
 }
 
+/* Mobile CSS */
+
+@media (max-width: 768px) {
+    #vid-title {
+        text-align: center;
+    }
+    .header-title {
+        text-align: center;
+    }
+    .row-cont {
+        margin-left: -10px;
+    }
+    .vidBtn {
+        margin: 15px auto;
+    }
+}
