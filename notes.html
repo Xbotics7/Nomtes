@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 come-in mt-4 mt-md-0">
-                    <h2 class="text-center font-weight-bold">Syllabus</h2>
+                    <h2 class="text-center font-weight-bold ml-md-5">Syllabus</h2>
                     <div id="course-sly">
 
                     </div>
@@ -144,8 +144,16 @@
             </div>
         </div>
     </div>
-    <div class="alert alert-danger d-none" role="alert">
-        Sorry! No Notes available right now..
+    
+    <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-delay="1500" data-autohide="true">
+        <div class="d-flex px-2 pr-3 bg-danger">
+            <div class="toast-body" style="flex: 1; align-content: center;">
+                Sorry! No Notes available right now..
+            </div>
+            <button type="button" class="ml-2 close text-white" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
     </div>
 </body>
 

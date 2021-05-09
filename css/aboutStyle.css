@@ -54,8 +54,12 @@
   padding-left: 60px;
 }
 
+.xbot-link{
+  color: white;
+}
+
 .xbot-link:hover {
-  text-decoration: none;
+  color: white;
 }
 
 .xbot-logo {
@@ -88,6 +92,7 @@
 .socialmedia-link:hover {
   text-decoration: none;
   color: white;
+  transform: scale(1.05);
 }
 
 .social-link-div {

@@ -148,9 +148,9 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/bruh/main/course.json", fu
                 <h2 class="sly-unit">
                     ${sly_obj[j].replace("_", "-")}
                 </h2>
-                <h2 class="sly-title">
+                <h3 class="sly-title">
                     ${title}
-                </h2>
+                </h3>
                 <p class="sly-chap">
                     ${chap}
                 </p>
@@ -168,8 +168,7 @@ function openNotes() {
         if (notes_collec[notes_collec_object[0]] !== "")
             window.open(notes_collec[notes_collec_object[0]]);
         else {
-            $('.alert').alert('show')
-
+            $('.toast').toast('show')
         }
     }
     else {

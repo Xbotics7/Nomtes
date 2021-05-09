@@ -54,15 +54,26 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomte
     notesData = data.BCA[sub_id]
 
     vid_collec = notesData["Youtube"]
-    vid_collec_object = Object.keys(vid_collec);
+    if (vid_collec !== null && vid_collec !== undefined) {
+        vid_collec_object = Object.keys(vid_collec);
+        getVids()
+    }
+    else
+        $(".not-available").removeClass("d-none").addClass("d-flex")
 
-    getVids()
 
 })
 
 
 function getVids() {
     document.getElementById("vid-list-cont").innerHTML = "";
+
+    if (vid_collec_object.length <= 0) {
+        $(".not-available").removeClass("d-none").addClass("d-flex")
+    } else {
+        $(".not-available").removeClass("d-flex").addClass("d-none")
+    }
+
     for (i = 0; i < vid_collec_object.length; i++) {
         document.getElementById("vid-list-cont").innerHTML += `<a class="vidBtn" href='#' onclick='openVid("${vid_collec[vid_collec_object[i]]}", "${vid_collec_object[i]}")'>
             <i class="fa fa-vid fa-lg mr-2"></i>

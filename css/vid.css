@@ -36,6 +36,17 @@
     margin-left: 10px;
 }
 
+.not-available {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 45%;
+    bottom: 50%;
+    white-space: nowrap;
+}
+
 /* Desktop CSS */
 
 @media (min-width: 768px) {
