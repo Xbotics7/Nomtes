@@ -1,3 +1,21 @@
+.light {
+    --card-bg: #fff;
+    --main-bg1: #559bbb;
+    --main-bg2: #1e4e6f;
+    --textColor: #000;
+    --textHoverColor: #7d7d7d;
+    --bt-bg: rgba(255, 255, 255, 0.541);
+}
+
+.dark {
+    --card-bg: #2b2b2b;
+    --main-bg1: #212529;
+    --main-bg2: #212529;
+    --textColor: white;
+    --textHoverColor: #b2b2b2;
+    --bt-bg: rgba(36, 36, 36, 0.541);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +24,16 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #559bbb, #1e4e6f);
+    background-image: linear-gradient(to right, var(--main-bg1), var(--main-bg2));
     color: white;
     font-family: 'Montserrat', sans-serif;
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+a {
+    cursor: pointer;
 }
 
 .navbar-brand {
@@ -74,6 +96,7 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
+    color: var(--textHoverColor);
 }
 
 .btnAndroid {
@@ -89,8 +112,29 @@ body {
 }
 
 .btnAndroid:hover {
-    color: #212529;
+    color: var(--textHoverColor);
     text-decoration: none;
+    transform: scale(1.05);
+}
+
+.bi {
+    margin: auto;
+}
+
+.btn-theme {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    border-radius: 40px;
+    background-color: var(--card-bg);
+    color: var(--textColor);
+}
+
+.btn-theme:hover {
+    color: var(--textColor);
     transform: scale(1.05);
 }
 
@@ -189,7 +233,7 @@ body {
         position: static !important;
     }
     body {
-        background-image: linear-gradient( #559bbb, #1e4e6f);
+        background-image: linear-gradient( var(--main-bg1), var(--main-bg2));
     }
 }
 

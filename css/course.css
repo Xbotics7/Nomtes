@@ -4,7 +4,7 @@ body {
     background-image: url("../images/pattern_bg.svg") !important;
     font-family: 'Montserrat', sans-serif;
     background-size: cover;
-    background-color: #1f4d6d;
+    background-color: var(--main-bg2);
     background-blend-mode: luminosity;
 }
 
