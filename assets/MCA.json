@@ -1,12 +1,12 @@
 {
   "MCA": {
     "MCAC 101": {
-      "Akash_url": "http://bit.ly/2JLqQcV",
+      "Akash_url": "",
       "Book_url": "http://bit.ly/2YJBwNW",
       "Notes": {
         "notes1": "http://bit.ly/37F75Ou"
       },
-      "Paper_analysis_url": "http://bit.ly/2qtebF7",
+      "Paper_analysis_url": "",
       "SubjectName": "Object Oriented Programming",
       "Youtube": {
         "Determinant": "https://www.youtube.com/playlist?list=PLSUTYSVj7etzxi3o_dnEab50DFYIOgsI3",
@@ -16,7 +16,7 @@
       }
     },
     "MCAC 102": {
-      "Akash_url": "http://bit.ly/2VMFqZ6",
+      "Akash_url": "",
       "Book_url": "http://bit.ly/2IeMGXT",
       "Notes": {
         "Unit 1": "http://bit.ly/2S9CQWV",
@@ -26,6 +26,51 @@
       },
       "Paper_analysis_url": "http://bit.ly/2VlqvAx",
       "SubjectName": "Computer Systems Architecture",
+      "Youtube": {
+        "Vid1": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzqT6B1h-AhgtvIbdbK9RRb-",
+        "Vid3": "https://www.youtube.com/playlist?list=PLmXKhU9FNesS7GpOddHDX3ZCl86_cwcIn",
+        "Vid4": "https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz",
+        "vid2": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzr9pmT_Qpk3eJGdUuSr6FON"
+      }
+    },
+    "MCAC 103": {
+      "Akash_url": "",
+      "Book_url": "http://bit.ly/2IeMGXT",
+      "Notes": {
+        "notes1":"https://drive.google.com/drive/folders/150ilKgk2PIROJwkqDilfEeM-HEUnTVdw?usp=sharing"
+      },
+      "Paper_analysis_url": "",
+      "SubjectName": "Data Structures",
+      "Youtube": {
+        "Vid1": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzqT6B1h-AhgtvIbdbK9RRb-",
+        "Vid3": "https://www.youtube.com/playlist?list=PLmXKhU9FNesS7GpOddHDX3ZCl86_cwcIn",
+        "Vid4": "https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz",
+        "vid2": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzr9pmT_Qpk3eJGdUuSr6FON"
+      }
+    },
+    "MCAC 104": {
+      "Akash_url": "",
+      "Book_url": "http://bit.ly/2IeMGXT",
+      "Notes": {
+        "notes1":"https://drive.google.com/drive/folders/18Us4fck_e6rBg3K9aYuj79fL7rne-odr?usp=sharing"
+      },
+      "Paper_analysis_url": "",
+      "SubjectName": "Database Systems",
+      "Youtube": {
+        "Vid1": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzqT6B1h-AhgtvIbdbK9RRb-",
+        "Vid3": "https://www.youtube.com/playlist?list=PLmXKhU9FNesS7GpOddHDX3ZCl86_cwcIn",
+        "Vid4": "https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz",
+        "vid2": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzr9pmT_Qpk3eJGdUuSr6FON"
+      }
+    },
+    "MCAC 105": {
+      "Akash_url": "",
+      "Book_url": "http://bit.ly/2IeMGXT",
+      "Notes": {
+        "notes1" : "https://drive.google.com/drive/folders/11NYy1PhWK9oNCvklPFwsVLiZGiQPjCzF?usp=sharing"
+      },
+      "Paper_analysis_url": "",
+      "SubjectName": "Data Mining",
       "Youtube": {
         "Vid1": "https://www.youtube.com/playlist?list=PLHz3_2lRlEzqT6B1h-AhgtvIbdbK9RRb-",
         "Vid3": "https://www.youtube.com/playlist?list=PLmXKhU9FNesS7GpOddHDX3ZCl86_cwcIn",

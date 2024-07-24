@@ -86,7 +86,7 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomte
     if (notesData["Akash_url"] !== "") {
         document.getElementById("notes-cont").innerHTML += ` <a class="notesBtn" href='${notesData["Akash_url"]}' target="_blank">
         <i class="fa fa-bookmark fa-lg mr-2"></i>
-        Akash
+        PYQs
         </a>`
     }
     if (notesData["Book_url"] !== "") {
