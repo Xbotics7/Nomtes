@@ -8,10 +8,16 @@ var sem6 = ["BCA 302", "BCA 304", "BCA 306", "BCA 308", "BCA 310", "BCA 312", "B
 var selectedSem = [];
 
 let params = (new URL(document.location)).searchParams;
-let sub_id = params.get("id");
+sem_id = params.get("id");
+course_id = params.get("course");
+console.log(sem_id);
+console.log(course_id);
+if (course_id == "MCA") {
+    document.getElementById("CourseName").innerText = "Master Of Computer Applications";  
+    
+}
 
-
-switch (sub_id) {
+switch (sem_id) {
     case "sem1":
         selectedSem = sem1;
         document.getElementById("sem-title").innerText = "Semester 1";
@@ -91,6 +97,7 @@ $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomte
         document.getElementById("subjects-cont").innerHTML += ` <a class="subject" href='./notes.html?id=${sub}'>
             ${notesData[sub].SubjectName}
             </a>`
+            console.log(`${sub}`);
     })
 }
 )
