@@ -1,5 +1,5 @@
 
-var sem1 = ["BCA 101", "BCA 103", "BCA 105", "BCA 107", "BCA 109"];
+var sem1 = ["BCA 101","MCAC 101","MCAC 102", "BCA 103", "BCA 105", "BCA 107", "BCA 109"];
 var sem2 = ["BCA 102", "BCA 104", "BCA 106", "BCA 108", "BCA 110"];
 var sem3 = ["BCA 201", "BCA 203", "BCA 205", "BCA 207", "BCA 209"];
 var sem4 = ["BCA 202", "BCA 204", "BCA 206", "BCA 208", "BCA 210"];
@@ -64,40 +64,33 @@ switch (sem_id) {
 
 
 var notesData = {};
-$.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
+if(course_id="BCA"){
 
-    notesData = data.BCA
-    // var bruh = data.BCA['BCA 101'];
-    // console.log(bruh)
-
-    //     var _count = 0;
-    //     var createRow = true;
-    //     var bruh = '';
-    // for (var j = 0; j < test.length;) {
-
-    //         bruh = ` <div class="row">` 
-
-    //         for (var i = 0; i < 2; i++) {
-    //             if(typeof test[_count] !== 'undefined') {
-
-    //             bruh += ` <a class="subject ml-3 col">
-    //             ${notesData[test[_count]].SubjectName}
-    //             </a>`
-    //             _count++;
-    //             j++;
-    //             }
-    //         }
-    //         bruh +=  "</div>"
-    //         document.getElementById("subjects-cont").innerHTML += bruh;
-
-    // }
-
-    selectedSem.forEach(function (sub) {
-
-        document.getElementById("subjects-cont").innerHTML += ` <a class="subject" href='./notes.html?id=${sub}'>
-            ${notesData[sub].SubjectName}
-            </a>`
-            console.log(`${sub}`);
-    })
+    $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
+    
+        notesData = data.BCA
+        selectedSem.forEach(function (sub) {
+    
+            document.getElementById("subjects-cont").innerHTML += ` <a class="subject" href='./notes.html?id=${sub}'>
+                ${notesData[sub].SubjectName}
+                </a>`
+                console.log(`${sub}`);
+        })
+    }
+    )
 }
-)
+else{
+    $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/MCA.json", function (data) {
+    
+        notesData = data.MCA
+        selectedSem.forEach(function (sub) {
+    
+            document.getElementById("subjects-cont").innerHTML += ` <a class="subject" href='./notes.html?id=${sub}'>
+                ${notesData[sub].SubjectName}
+                </a>`
+                console.log(`${sub}`);
+        })
+    }
+    )
+   
+}
