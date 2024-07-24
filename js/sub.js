@@ -1,8 +1,8 @@
 
 var sem1 = ["BCA 101", "BCA 103", "BCA 105", "BCA 107", "BCA 109", "MCAC 101","MCAC 102", "MCAC 103", "MCAC 104", "MCAC 105"];
-var sem2 = ["BCA 102", "BCA 104", "BCA 106", "BCA 108", "BCA 110","MCAC 201","MCAC 202", "MCAC 203", "MCAC 204", "MCAC 205"];
-var sem3 = ["BCA 201", "BCA 203", "BCA 205", "BCA 207", "BCA 209","MCAC 101","MCAC 102", "MCAC 103", "MCAC 104", "MCAC 105"];
-var sem4 = ["BCA 202", "BCA 204", "BCA 206", "BCA 208", "BCA 210","MCAC 101","MCAC 102", "MCAC 103", "MCAC 104", "MCAC 105"];
+var sem2 = ["BCA 102", "BCA 104", "BCA 106", "BCA 108", "BCA 110","MCAC 201","MCAC 202", "MCAC 203", "MCAC 204", "MCAE 201"];
+var sem3 = ["BCA 201", "BCA 203", "BCA 205", "BCA 207", "BCA 209","MCAC 301","MCAC 302", "MCAE 302", "MCAE 303", "MCAE 309"];
+var sem4 = ["BCA 202", "BCA 204", "BCA 206", "BCA 208", "BCA 210","MCAC 401"];
 var sem5 = ["BCA 301", "BCA 303", "BCA 305", "BCA 307", "BCA 309", "BCA 311", "BCA 313", "BCA 315"];
 var sem6 = ["BCA 302", "BCA 304", "BCA 306", "BCA 308", "BCA 310", "BCA 312", "BCA 314", "BCA 316"];
 var selectedSem = [];
@@ -13,8 +13,11 @@ course_id = params.get("course");
 console.log(sem_id);
 console.log(course_id);
 if (course_id == "MCA") {
-    document.getElementById("CourseName").innerText = "Master Of Computer Applications";  
-    
+    document.getElementById("CourseName").innerText = "Master Of Computer Applications";
+    document.getElementById("bcaSems").style.display="none";   
+}
+else{
+    document.getElementById("mcaSems").style.display="none";
 }
 
 switch (sem_id) {
