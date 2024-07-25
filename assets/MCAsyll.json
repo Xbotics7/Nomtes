@@ -369,71 +369,87 @@
             }
           },
           {
-            "title": "VB.net",
-            "paper_id": 20205,
+            "title": "Automata Theory",
+            "paper_id": "MCAE 309",
             "link": "http://bit.ly/36kdFZr",
             "syllabus": {
               "unit_1": {
-                "title": "Introduction to .Net",
-                "chapters": "Introduction to .Net, Two tier and Three tier client server model, .Net Architecture, Features of .Net, Advantages of .Net, .Net Framework, CLR, CTS, CLS, Assemblies, Memory management issues – Garbage Collector and collection process, Exception Handling, Code Access Security."
+                "title": "Introduction ",
+                "chapters": "Alphabets, Strings and Languages"
               },
               "unit_2": {
-                "title": "Introduction to Visual Basic.Net IDE",
-                "chapters": "Creating a project, Types of project in .Net, Exploring and coding a project, Solution explorer, toolbox, properties window, Output window, Object Browser.   VB.Net Programming Language: Similarities and Differences with Visual Basic, Variables, Comments, Data Types, Working with Data Structures – Arrays, Array Lists, Enumerations, Constants, Structures; Introduction to procedures, calling procedures, argument passing mechanisms, scope of variable.   Control Flow Statements – conditional statement, Loops, Nesting of Loops, MsgBox and Input Box."
+                "title": "Finite Automata and Regular Languages",
+                "chapters": "Deterministic and non-deterministic finite automata, regular expressions, regular languages and their relationship with finite automata, pumping lemma and closure properties of regular languages"
               },
               "unit_3": {
-                "title": "GUI Programming",
-                "chapters": "Introduction to Window Applications, Using Form – Common Controls, Properties, Methods and Events. Interacting with controls - Textbox, Label, Button, Listbox, Combobox, Checkbox, Picture Box, Radio Button, Panel, scroll bar, Timer, ListView, TreeView, toolbar, Status Bar. Dialog Controls, Creating and Using MDI applications, Toolbar, Status Bar, Creating custom controls, Creating Menus.   Object Oriented Features: Classes and Objects, Access Specifiers: Private, Public and Protected, Building Classes, Reusability, Constructors, Inheritance, Overloading, Overriding, Creating and Using Namespaces."
+                "title": "Context Free Grammars and Pushdown Automata",
+                "chapters": "Context free grammars (CFG), parse trees, ambiguities in grammars and languages, pushdown automaton (PDA) and the language accepted by PDA, deterministic PDA, Non- deterministic PDA, properties of context free languages; normal forms, pumping lemma, closure properties, decision properties."
               },
               "unit_4": {
-                "title": "Introduction to ADO & Crystal Reports",
-                "chapters": "ADO vs ADO.Net, ADO.Net data namespaces, ADO.Net Object Model, Accessing data from Server Explorer, Creating Connection, Command, Data Adapter, Data Reader and Data Set with OLEDB and SQLDB, Data Binding.   Crystal Report : Connection to Database, Table, Queries, Building Report, Modifying Report, Formatting Fields, Publishing and exporting reports.."
+                "title": "Turing Machines",
+                "chapters": "Turing machine as a model of computation, programming with a Turing machine, variants of Turing machine and their equivalence."
+              },
+              "unit_5": {
+                "title": "Undecidability",
+                "chapters": "Recursively enumerable and recursive languages, undecidable problems about Turing machines: halting problem, Post Correspondence Problem, and undecidability problems about CFGs."
               }
             }
           },
           {
-            "title": "Principles Of Accounting",
-            "paper_id": 20207,
+            "title": "Quantum Computing",
+            "paper_id": "MCAE 312",
             "link": "http://bit.ly/2LJo9tx",
             "syllabus": {
               "unit_1": {
-                "title": "Accounting",
-                "chapters": "Meaning and nature of accounting, Scope of financial accounting, Interrelationship of Accounting with other disciplines, Branches of Accounting, Accounting concepts and convention, Accounting standards in India."
+                "title": "Introduction & Background",
+                "chapters": " A brief history of computing including ‘Turing Machines’, Probabilistic systems, Quantum Systems."
               },
               "unit_2": {
-                "title": "Journal & Ledgers",
-                "chapters": "Journal, Rules of Debit and Credit, Sub Division of Journal: Cash Journal, Petty Cash Book, Purchase Journal, Purchase Return, Sales Journal, Sales Return Journal, Ledger, Trial Balance"
+                "title": " QUBITS and Framework of Quantum Systems",
+                "chapters": "The State of a Quantum System, Quantum Bits, Quantum Registers, Quantum information, Quantum Turing Machine."
               },
               "unit_3": {
-                "title": "Final Accounts",
-                "chapters": "Preparation of Final Accounts, Profit & Loss Account, Balance Sheet-Without adjustments and with adjustments."
+                "title": "Quantum Circuits",
+                "chapters": " Boolean Circuits, Reversible Circuits, Quantum Circuit Model, Quantum Gates, Universal Sets of Quantum Gates, Efficiency in approximating unitary transformation, Implementing measurements with Quantum Gates."
               },
               "unit_4": {
-                "title": "Inventory Management",
-                "chapters": "Meaning of Inventory, Objectives of Inventory Valuation, Inventory Systems, Methods of Valuation of Inventories-FIFO, LIFO and Weighted Average Method, Concept of Deprecation, Causes of Depreciation, Meaning of Depreciation Accounting, Method of Recording Depreciation, Methods of Providing Depreciation."
+                "title": "Introduction to Quantum Algorithm",
+                "chapters": "Probabilistic versus Quantum Algorithm, Phase Kick- Back Algorithm, The Deutsch Algorithm, The Deutsch-Jozsa Algorithm, Simon’s Algorithm"
+              },
+              "unit_5": {
+                "title": "Fast Factorization & Search Algorithms",
+                "chapters": "Quantum Fourier Transform, Shor’s  Algorithm, The Correctness Probability. Grover’s Search Algorithm"
+              },
+              "unit_6": {
+                "title": "Computational lower bound complexity for quantum circuits",
+                "chapters": "General ideas, Polynomial representations, Quantum Circuit Lower Bound"
+              },
+              "unit_7": {
+                "title": "Introduction to quantum error Correction",
+                "chapters": "Classical Error correction, Fault tolerance, Quantum Error Correction, Fault Tolerance Quantum computation."
               }
             }
           },
           {
-            "title": "Object Oriented Programming with C++",
-            "paper_id": 20209,
+            "title": "NETWORK SCIENCE",
+            "paper_id": "MCAE 303",
             "link": "http://bit.ly/2LXoSr0",
             "syllabus": {
               "unit_1": {
                 "title": "Introduction",
-                "chapters": "Introducing Object-Oriented Approach, Relating to other paradigms (functional, data decomposition). Features of Procedure oriented programming, Basic Concepts of Object Oriented Programming, Benefits of OOP, Applications of OOP, Difference between C and C++, cin, cout, new, delete operators. C++ Environment: Program development environment, the language and the C++ language standards. C++ standard libraries. Introduction to various C++ compilers, C++ standard libraries, Testing the C++ program in Turbo C++/Borland C++/MicroSoft VC++/GNU C++ compiler."
+                "chapters": "Introduction to complex systems and networks, modeling of complex systems, review of graph theory"
               },
               "unit_2": {
-                "title": "Classes and Objects:",
-                "chapters": "Encapsulation, information hiding, abstract data types, Object & classes, attributes, methods, C++ class declaration, references, this pointer, Function Overloading, Constructors and destructors, instantiation of objects, Default parameter value, C++ garbage collection, dynamic memory allocation, Meta class/abstract classes.[T1][T2]"
+                "title": "Network properties",
+                "chapters": "Local and global properties like clustering coefficient, eccentricity; centrality measures for directed and undirected networks"
               },
               "unit_3": {
-                "title": "Inheritance and Polymorphism",
-                "chapters": "Inheritance, Class hierarchy, derivation – public, private & protected, Aggregation, composition v/s classification hierarchies, Polymorphism, Categorization of polymorphism techniques, Method polymorphism, Polymorphism by parameter, Operator overloading, Parametric polymorphism, Virtual Function, Early v/s Late Binding."
+                "title": " Graph models",
+                "chapters": "Random graph model, Small world network model, Barabasi-Albert (preferential attachment) network model."
               },
               "unit_4": {
-                "title": "Generic Programming, Files and Exception Handling",
-                "chapters": "Introduction, templates, template functions, Overloading of template functions, Overriding inheritance methods.Persistant objects, Streams and files, Namespaces, The basic stream classes: C++ predefined streams, Error handling during file operations, Command Line Arguments. Types of Exception, Catching and Handling Exceptions."
+                "title": "Community structure in networks",
+                "chapters": "Communities and community detection in networks, Hierarchical algorithms for community detection, Modularity based community detection algorithms, Label Propagation algorithm"
               }
             }
           }
