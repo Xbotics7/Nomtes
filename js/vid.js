@@ -1,12 +1,13 @@
-var sem1 = ["BCA 101", "BCA 103", "BCA 105", "BCA 107", "BCA 109"];
-var sem2 = ["BCA 102", "BCA 104", "BCA 106", "BCA 108", "BCA 110"];
-var sem3 = ["BCA 201", "BCA 203", "BCA 205", "BCA 207", "BCA 209"];
-var sem4 = ["BCA 202", "BCA 204", "BCA 206", "BCA 208", "BCA 210"];
+var sem1 = ["BCA 101", "BCA 103", "BCA 105", "BCA 107", "BCA 109", "MCAC 101","MCAC 102", "MCAC 103", "MCAC 104", "MCAC 105"];
+var sem2 = ["BCA 102", "BCA 104", "BCA 106", "BCA 108", "BCA 110","MCAC 201","MCAC 202", "MCAC 203", "MCAC 204", "MCAE 201"];
+var sem3 = ["BCA 201", "BCA 203", "BCA 205", "BCA 207", "BCA 209","MCAC 301","MCAC 302", "MCAE 302", "MCAE 303", "MCAE 309"];
+var sem4 = ["BCA 202", "BCA 204", "BCA 206", "BCA 208", "BCA 210","MCAC 401"];
 var sem5 = ["BCA 301", "BCA 303", "BCA 305", "BCA 307", "BCA 309", "BCA 311", "BCA 313", "BCA 315"];
 var sem6 = ["BCA 302", "BCA 304", "BCA 306", "BCA 308", "BCA 310", "BCA 312", "BCA 314", "BCA 316"];
 
 let params = (new URL(document.location)).searchParams;
 let sub_id = params.get("id");
+let isMCA = sub_id.includes("MCA");
 if (sub_id === null)
     sub_id = "BCA 101"
 var selectedSem = [];
@@ -48,21 +49,41 @@ else {
 var notesData = {};
 var vid_collec;
 var vid_collec_object;
+if(!isMCA){
 
-$.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
+    $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/nomtes7.json", function (data) {
+    
+        notesData = data.BCA[sub_id]
+    
+        vid_collec = notesData["Youtube"]
+        if (vid_collec !== null && vid_collec !== undefined) {
+            vid_collec_object = Object.keys(vid_collec);
+            getVids()
+        }
+        else
+            $(".not-available").removeClass("d-none").addClass("d-flex")
+    
+    
+    })
+}
+else{
+    $.getJSON("https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/MCA.json", function (data) {
+    
+        notesData = data.MCA[sub_id]
+    
+        vid_collec = notesData["Youtube"]
+        if (vid_collec !== null && vid_collec !== undefined) {
+            vid_collec_object = Object.keys(vid_collec);
+            getVids()
+        }
+        else
+            $(".not-available").removeClass("d-none").addClass("d-flex")
+    
+    
+    })
 
-    notesData = data.BCA[sub_id]
+}
 
-    vid_collec = notesData["Youtube"]
-    if (vid_collec !== null && vid_collec !== undefined) {
-        vid_collec_object = Object.keys(vid_collec);
-        getVids()
-    }
-    else
-        $(".not-available").removeClass("d-none").addClass("d-flex")
-
-
-})
 
 
 function getVids() {
@@ -100,7 +121,7 @@ function openVid(vid_url, title, obj) {
     document.getElementById("vid-title").innerText = title;
 
     document.getElementById("vid-frame").innerHTML = `
-    <iframe width="90%" height="415" src="https://www.youtube.com/embed/videoseries?list=${youtube_playlist_parser(vid_url)}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    <iframe width="100%" height="415" src="https://www.youtube.com/embed/videoseries?list=${youtube_playlist_parser(vid_url)}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
     return false;
 }
