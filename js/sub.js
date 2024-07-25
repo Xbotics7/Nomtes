@@ -14,7 +14,8 @@ console.log(sem_id);
 console.log(course_id);
 if (course_id == "MCA") {
     document.getElementById("CourseName").innerText = "Master Of Computer Applications";
-    document.getElementById("bcaSems").style.display="none";   
+    document.getElementById("bcaSems").style.display="none"; 
+    document.getElementById("semSyllabus").style.display="none";  
 }
 else{
     document.getElementById("mcaSems").style.display="none";
