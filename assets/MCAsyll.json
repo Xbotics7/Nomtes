@@ -190,90 +190,114 @@
             }
           },
           {
-            "title": "Principles of Management",
-            "paper_id": 20104,
+            "title": "DATA COMMUNICATION AND COMPUTER NETWORKS",
+            "paper_id": "MCAC 202",
             "syllabus": {
               "unit_1": {
-                "title": "Management",
-                "chapters": "Meaning & concept, Management principles (Fayol & Taylor), Management process (in brief), Managerial levels, Roles & skills of a manager, Management Theories (Classical, Neo classical, Behavioral, Systems & Contingency)"
+                "title": "Data Communication Techniques",
+                "chapters": "Theoretical basis of data communication, analog and digital signals, time domain and frequency domain analysis, frequency spectrum and bandwidth, asynchronous and synchronous transmission, data encoding and modulation techniques, basebandand broadband transmission, pulse code modulation, baud rate and bitrate of a channel multiplexing- FDM & TDM, transmission medium, transmission errors - error detection techniques."
               },
               "unit_2": {
-                "title": "Planning & Organizing",
-                "chapters": "Meaning, Purpose & process, Decision making: Concept & process,   Organizing: Process, Departmentation, Authority & Responsibility relationships, Decentralization. Staffing: Nature & Importance,"
+                "title": "Network Classification and Network services",
+                "chapters": "Local Area Networks, Metropolitan Area Networks, Wide Area Network, wireless networks, internetworking and Internet, business and home applications, mobile user services."
               },
               "unit_3": {
-                "title": "Staffing, Directing & Controlling",
-                "chapters": "Meaning, Purpose & process, Decision making: Concept & process,   Organizing: Process, Departmentation, Authority & Responsibility relationships,  Decentralization. Staffing: Nature & Importance,"
+                "title": "Network Architecture and Reference Models",
+                "chapters": " Layered network architectures, protocol hierarchies, interface and services, ISO-OSI reference model, TCP/IP reference model, Internet protocol stack."
               },
               "unit_4": {
-                "title": "Managing People",
-                "chapters": "Meaning, Need of understanding human behavior in organization, Models of OB, Major concepts in OB (elementary)- Personality, Learning, Perception & Attitude Building."
+                "title": "Data Link Layer Functions and Protocols",
+                "chapters": "Framing, flow-control, error recovery  protocols, Data link layer of internet-PPP protocol."
+              },
+              "unit_5": {
+                "title": "Medium Access Sublayer",
+                "chapters": "CSMA/CD protocol and Ethernet, hubs and switches, fast Ethernet, gigabit Ethernet, CSMA/CA protocol and WLAN."
+              },
+              "unit_6": {
+                "title": "Network and transport layers functions and protocols",
+                "chapters": " Network switching mechanisms- Circuit switching, packet switching, routing and congestion control, TCP/IP protocol architecture."
+              },
+              "unit_7": {
+                "title": "Network Applications",
+                "chapters": " File transfer protocol, electronic mail, World Wide Web."
               }
             }
           },
           {
-            "title": "Digital Electronics",
-            "paper_id": 20106,
+            "title": "Operating System",
+            "paper_id": "MCAC 203",
             "syllabus": {
               "unit_1": {
-                "title": "Logic gates, Logic Families & Boolean Algebra",
-                "chapters": "NOT , AND, OR, Universal gates- NAND , NOR. EX-OR and EX-NOR gates. Diode and Transistor as a switch   Logic Families-RTL,DTL,TTL,ECL,CMOS – (Main features only - without details of circuit connections and working). Definition of- current and voltage parameters, noise margin, Fan-in, Fan-out   Boolean Algebra : Basics Laws of Boolean Algebra, Logic Gates, Simplifications of Boolean equations using K-maps."
+                "title": "Introduction",
+                "chapters": " Operating System as a resource manager operating systems services, system calls, operating system classifications, operating systems architectures."
               },
               "unit_2": {
-                "title": "Number systems, Arithmetic Circuits & Combinational Circuits",
-                "chapters": "Review of various number systems (Binary, Octal, Hexadecimal), Definition of BCD , Gray codes and Excess – 3 codes and their application (without design of code convertors), Parity generation and Checking.  Arithmetic Circuits : Adder, Subtractor, Parallel binary adder/Subtractor, binary multiplier and dibvider.  Combinational Circuits:  Multiplexers, De-Multiplexers, decoders, encoders"
+                "title": "Processor Management",
+                "chapters": "Process overview, process states and state transition, multiprogramming, multi-tasking, levels of schedulers and scheduling algorithms. Process Synchronization-Critical section and mutual exclusion problem, classical process synchronization problems, deadlock prevention. Multithreading."
               },
               "unit_3": {
-                "title": "Flip-flops & Shift Registers",
-                "chapters": "S-R, D, J-K, T, Clocked Flip-flop, Race around condition, Master slave Flip-Flop, Realisation of one flip-flop using other flip-flop.   Shift Registers : Serial-in-serial-out, serial-in-parallel-out, parallel-in-serial-out and parallel-in-parallel-out, Bi-directional shift register."
+                "title": "Memory Management",
+                "chapters": "absolute and relative code, address translation, memory management techniques- partition, paging, segmentation, virtual memory. Static and dynamic memory management."
               },
               "unit_4": {
-                "title": "Counters",
-                "chapters": "Ripple counter, Synchronous Counter, Modulo Counters, Ring Counter, Twisted Ring Counter.  Memory Devices - RAM, ROM, PAL & PLA"
+                "title": "Device Management",
+                "chapters": " Goals of I/O software, Design of device drivers- interrupt service routines, upper half of kernel software, lower half of kernel software."
+              },
+              "unit_5": {
+                "title": "File Management",
+                "chapters": "Overview of file management system, disk space management, directory structures, file sharing and protection, access control lists, protection models."
               }
             }
           },
           {
-            "title": "Data Structures Using C",
-            "paper_id": 20108,
+            "title": "Machine learning",
+            "paper_id": "MCAC 204",
             "syllabus": {
               "unit_1": {
-                "title": "Introduction to Data Structures, Arrays & Stacks and Queues",
-                "chapters": "Basic Terminology, Elementary Data Organizations, Classification of data structures and its operations.   Arrays: Representation of single and multidimensional arrays (up to three dimensions) ; sparse arrays - lower and upper triangular matrices and Tri-diagonal matrices; addition and subtraction of two sparse arrays. (Multidimensional, and, sparse arrays, to be given elementary treatment.)  Stacks and Queues: Introduction and primitive operations on stack; Stack application: Polish Notations; Evaluation of postfix expression; Conversion from infix to postfix; Introduction and primitive operations on queues; D-queues and priority queues."
+                "title": "Introduction",
+                "chapters": "Hypothesis and target class, bias-variance tradeoff, Occam's razor, Approximation and estimation errors, Curse of dimensionality, dimensionality reduction, feature scaling, feature selection methods."
               },
               "unit_2": {
-                "title": "Lists & trees",
-                "chapters": "Introduction to linked lists; Sequential and linked lists, operations such as traversal, insertion, deletion, searching, Two way lists and Use of headers   Trees: Introduction and terminology; Traversal of binary trees; Recursive algorithms for tree operations such as traversal, insertion and deletion"
+                "title": "Regression",
+                "chapters": "Linear regression with one variable, Linear regression with multiple variables,  Gradient Descent, Logistic Regression, Polynomial regression, over-fitting, regularization. performance evaluation metrics, validation methods."
               },
               "unit_3": {
-                "title": "Trees",
-                "chapters": "Introduction to and creation of AVL trees and m-way search trees - (elementary treatment to be given); Multilevel indexing and B-Trees: Introduction; Indexing with binary search trees; Multilevel indexing, a better approach to tree indexes; Example for creating a B-tree."
+                "title": "Classification",
+                "chapters": "Decision trees, Naive Bayes classifier, Perceptron, multilayer perceptron, Neural  network, back-propagation Algorithm, Support Vector Machine, Kernel functions."
               },
               "unit_4": {
-                "title": "Sorting & Searching Techniques",
-                "chapters": "Insertion sort, selection sort and merge sort.linear search, binary search and hashing. (Complexities NOT to be discussed for sorting and searching)"
+                "title": "Evalution",
+                "chapters": "Performance evaluation metrics, ROC Curves, Validation methods, Bias-variance decomposition, Model complexity."
+              },
+              "unit_5": {
+                "title": "Unsupervised Learning",
+                "chapters": " Clustering, distance metrics, Mixture models, Expectation Maximization,  Cluster validation methods."
               }
             }
           },
           {
-            "title": "Database Management System",
-            "paper_id": 20110,
+            "title": "Web technologies",
+            "paper_id": "MCAE 201",
             "syllabus": {
               "unit_1": {
-                "title": "Introduction: to DBMS and Data Modeling using Entity Relationship Model",
-                "chapters": "An overview of database management system, database system Vs file system, Characteristics of database approach, DBMS architecture , data models, schema and instances, data independence.   Data Modeling using Entity Relationship Model: Entity, Entity types, entity set, notation for ER diagram, attributes and keys, Concepts of composite,derived and multivalued attributes, Super Key, candidate key, primary key, relationships, relation types, weak entities, enhanced E-R and object modeling, Sub Classes:, Super classes, inheritance, specialization and generalization."
+                "title": "Introduction",
+                "chapters": "Introduction to Networking, TCP/IP, DNS, Internet and its Evolution, World Wide Web, Web 2.0, Web 3.0, network communication protocols (HTTP/HTTPS, SMTP, IMAP, POP, FTP), client-server architecture applications architecture, application and web servers, web clients."
               },
               "unit_2": {
-                "title": "Introduction to SQL",
-                "chapters": "Overview , Characteristics of SQL. Advantage of SQL, SQL data types and literals.   Types of SQL commands: DDL, DML, DCL. Basic SQL Queries.   Logical operators :BETWEEN, IN, AND, OR and NOT   Null Values: Disallowing Null Values, Comparisons Using Null Values   Integrity constraints: Primary Key, Not NULL, Unique, Check, Referential key Introduction to Nested Queries, Correlated Nested Queries, Set-Comparison Operators, Aggregate Operators: The GROUP BY and HAVING Clauses,   Joins: Inner joins, Outer Joins, Left outer, Right outer, full outer joins. Overview of views and indexes."
+                "title": "Front-end Development",
+                "chapters": "Introduction to HTML5, HTML elements, HTML tags, lists, tables, frames, forms, basics of XHTML, CSS style sheets, DOM, XML, XSLT"
               },
               "unit_3": {
-                "title": "Relational Data Model, Relational Algebra & Data Normalization",
-                "chapters": "Relational model terminology domains, Attributes, Tuples, Relations, characteristics of relations, relational constraints domain constraints, key constraints and constraints on null, relational DB schema.Codd’s Rules   Relational algebra: Basic operations selection and projection, Set Theoretic operations Union, Intersection, set difference and division,   Join operations: Inner , Outer ,Left outer, Right outer and full outer join.   ER to relational Mapping: Data base design using ER to relational language.  Data Normalization: Functional dependencies, Armstrong’s inference rule, Normal form up to 3rd normal form."
+                "title": "Client-side Programming",
+                "chapters": " JavaScript basic syntax, variables and data types, literals, functions, objects, arrays, built-in objects, event handling, modifying element style, document trees."
               },
               "unit_4": {
-                "title": "Transaction processing and Concurrency Control",
-                "chapters": "Definition of Transaction, Desirable ACID properties, overview of serializability, serializable and non serializable transactions Concurrency Control: Definition of concurrency, lost update, dirty read and incorrect summary problems due to concurrency   Concurrency Control Techniques: Overview of Locking,2PL,Timstamp ordering, multiversioning, validation   Elementary concepts of Database security: system failure, Backup and Recovery Techniques, authorization and authentication."
+                "title": "Server-Side Programming",
+                "chapters": "Creation of dynamic content, server-side programming using Java Servlets, Web Services, session management, introduction to server-side scripting, accessing database from the front-end."
+              },
+              "unit_5": {
+                "title": "Web Security, Cookies and Authentication",
+                "chapters": "Security threats, Security risks of a website, Web attacks and their prevention, Web security model, Setting, accessing and destroying cookies,Anonymous Access, Authentication by IP address and Domain, Integrated Windows Authentication, Digital signatures, Digital certificates, Firewalls."
               }
             }
           }
@@ -283,48 +307,64 @@
         "title": 3,
         "subjects": [
           {
-            "title": "Mathematics",
+            "title": "Information Security",
             "link": "http://bit.ly/2OAet6b",
-            "paper_id": 20201,
+            "paper_id": "MCAC 301",
             "syllabus": {
               "unit_1": {
-                "title": "Measures of Central Tendency & Dispersion",
-                "chapters": "Definition, Importance & Limitation. Collection of data and formation of frequency distribution. Graphic presentation of frequency distribution – graphics, Bars, Histogram, Diagrammatic. Measures of central tendency – mean, median and mode, partition values – quartiles, deciles and percentiles. Measures of variation – range, IQR, quartile, deciles and percentiles."
+                "title": "Overview of Security",
+                "chapters": "Protection versus security; aspects of security– confidentiality, data integrity, availability, privacy; user authentication, access controls, Orange Book Standard."
               },
               "unit_2": {
-                "title": "Correlation/Regression",
-                "chapters": "Correlation Coefficient; Assumptions of correlation analysis; coefficients of determination and correlation; measurement of correlation- Karl Person’s Methods; Spearman’s rank correlation; concurrent deviation the correlation coefficient; Pitfalls and limitations associated with regression and correlation analysis; real world application using IT tools"
+                "title": "Security Threats",
+                "chapters": "Program threats, worms, viruses, Trojan horse, trap door, stack and buffer overflow; system threats- intruders; communication threats- tapping and piracy. "
               },
               "unit_3": {
-                "title": "Linear Programming & Queuing",
-                "chapters": "Concept a assumptions usage in business decision making linear programming problem: formulation, methods of solving: graphical and simplex, problems with mixed constraints: duality; concept, significance, usage & application in business decision making. Queuing Models: Basic structure of queuing models, Birth-Death queuing models and its steady state solution, M/M/1 and M/M/C models with infinite/finite waiting space. PERT,CPM"
+                "title": "Cryptography",
+                "chapters": " Substitution, transposition ciphers, symmetric-key algorithms: Data Encryption Standard, Advanced Encryption Standard, IDEA, Block cipher Operation, Stream Ciphers: RC-4. Public key encryption: RSA, ElGamal. Diffie-Hellman key exchange. Elliptic Curve, EC cryptography, Message Authentication code (MAC), Cryptographic hash function."
               },
               "unit_4": {
-                "title": "Transportation & Assignment Problem",
-                "chapters": "General structure of transportation problem, solution procedure for transportation problem, methods for finding initial solution, test for optimality. Maximization of transportation problem, transportation problem. Assignment problem approach of the assignment model, solution methods of assignment problem, maximization in an assignment, unbalanced assignment problem, restriction on assignment."
+                "title": "Digital Signature",
+                "chapters": "ElGamal digital signature scheme, Elliptic Curve digital signature scheme, NISTdigital signature scheme."
+              },
+              "unit_5": {
+                "title": "Key Management and Distribution",
+                "chapters": "Symmetric Key Distribution, X.509 Certificate public key infrastructures."
+              },
+              "unit_6": {
+                "title": "Cyber Security",
+                "chapters": "Cyberspace, Cyber crimes, cybercriminals, Cyber security, Cyber security threats, DoS Attack, Vulnerability analysis, Firewall, Intrusion detection system."
               }
             }
           },
           {
-            "title": "Computer Architecture",
-            "paper_id": 20203,
+            "title": " SOFTWARE ENGINEERING",
+            "paper_id": "MCAC 302",
             "link": "http://bit.ly/2CgyLe6",
             "syllabus": {
               "unit_1": {
-                "title": "Register Transfer and Micro-operations",
-                "chapters": "Micro-operations:Register Transfer Language, Register Transfer, Bus and Memory Transfers, Arithmetic Micro-operations, Logic Micro-operations, Shift Microoperations, Arithmetic logic shift unit   Basic Computer Organizations and Design: Instruction Codes, Computer Registers, Computer Instructions, Timing and Control, Instruction Cycle, Memory-Reference Instructions, Register reference instructions, Input - Output Instructions, Design of Accumulator Logic"
+                "title": "Software Engineering",
+                "chapters": "The software crisis, software engineering principles, programming-in-the-small vs programming-in-the-large."
               },
               "unit_2": {
-                "title": "Design of Microprogrammed Control Unit",
-                "chapters": "Central Processing Unit: Introduction, General Register Organization, Stack Organization, Instruction Formats, Addressing Modes. Difference between RISC and CISC .  Matrix Multiplication, memory interleaving. "
+                "title": "Software Process",
+                "chapters": " The software lifecycle, the waterfall model and variations, risk-driven approaches, introduction to evolutionary and prototyping approaches, agile process models, and system classifications. "
               },
               "unit_3": {
-                "title": "Computer Arithmetic",
-                "chapters": "Introduction, Multiplication Algorithms, Division Algorithms, for fixed point-members.  Input-Output Organization: Peripheral Devices, Input-Output Interfaces, Asynchronous Data Transfer, Modes of Transfer, Priority Interrupt, Direct Memory Access (DMA)"
+                "title": "Project Management",
+                "chapters": "Relationship to lifecycle, project planning, project control, project organization, risk management, cost models, configuration management, version control, quality assurance, metrics."
               },
               "unit_4": {
-                "title": "Memory Organization",
-                "chapters": "Memory Hierarchy, Main Memory, Auxiliary Memory, Associative Memory, Cache Memory, Virtual Memory, Memory Management Hardware"
+                "title": "Software requirements",
+                "chapters": "Requirements analysis, functional and non-functional requirements elicitation, analysis tools, requirements definition, requirements specification, static and dynamic specifications, requirements review."
+              },
+              "unit_5": {
+                "title": "Software Design",
+                "chapters": "Design for reuse, design for change, design notations, design evaluation and validation."
+              },
+              "unit_6": {
+                "title": "Implementation and Maintenance",
+                "chapters": "Programming standards and procedures, modularity, data abstraction, static analysis, unit testing, integration testing, regression testing, verification and validation, tools for testing, fault tolerance, The maintenance problem, the nature of maintenance, planning for maintenance."
               }
             }
           },
