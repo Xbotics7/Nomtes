@@ -13,8 +13,12 @@ if (sub_id === null)
     sub_id = "BCA 101"
 var selectedSem = [];
 var sly_index = 0;
-var course_code = sub_id.replace("BCA ", "20");
-
+if(!isMCA){
+    var course_code = sub_id.replace("BCA ", "20");
+}
+else{
+    var course_code = sub_id;
+}
 document.getElementById("sub-code").innerText = sub_id;
 
 if (sem1.includes(sub_id)) {
@@ -148,7 +152,12 @@ else{
     
 }
 
-$.getJSON("https://raw.githubusercontent.com/Xbotics7/bruh/main/course.json", function (data) {
+let SylLink = "https://raw.githubusercontent.com/Xbotics7/Nomtes/master/assets/MCAsyll.json";
+
+if(!isMCA ){
+    SylLink = "https://raw.githubusercontent.com/Xbotics7/bruh/main/course.json";
+}
+$.getJSON(SylLink, function (data) {
     var semsly = data[0]["semester"][sly_index]
 
     var semsly_obj = Object.keys(semsly["subjects"]);
